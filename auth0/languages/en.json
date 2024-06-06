@@ -1,0 +1,13 @@
+{
+    "pageTitle": "Login | GanSoft",
+    "title": "Sign in to your account",
+    "email": "Email",
+    "email_placeholder": "Email",
+    "password": "Password",
+    "password_placeholder": "Password",
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "login_with_google": "Sign in with Google",
+    "login_with_facebook": "Sign in with Facebook",
+    "login_with_microsoft": "Sign in with Microsoft"
+}
