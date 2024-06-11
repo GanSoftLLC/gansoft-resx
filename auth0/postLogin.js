@@ -13,14 +13,16 @@ exports.onExecutePostLogin = async (event, api) => {
  * @param {PostLoginAPI} api - Interface whose methods can be used to change the behavior of the login.
  */
 exports.onContinuePostLogin = async (event, api) => {
-  const namespace = 'https://gansoft.io/';
-  const {first_name, last_name, phone, country_code_iso} = event.user.user_metadata;
+  const namespace = 'https://gansoft.io';
+  const {first_name, last_name, phone, country_code} = event.user.user_metadata;
 
   if (event.authorization) {
-    // Set claims 
-    api.idToken.setCustomClaim(`${namespace}first_name`, first_name);
-    api.idToken.setCustomClaim(`${namespace}last_name`, last_name);
-    api.idToken.setCustomClaim(`${namespace}phone`, phone);
-    api.idToken.setCustomClaim(`${namespace}country_code_iso `, country_code_iso);
+    api.idToken.setCustomClaim(`given_name`, first_name);
+    api.idToken.setCustomClaim(`family_name`, last_name);
+    api.idToken.setCustomClaim(`phone_number`, phone.replaceAll(" ", ""));
+    let names = [first_name, last_name];
+    api.idToken.setCustomClaim(`name`, names.join(" "));
+    // Set Custom Claims
+    api.idToken.setCustomClaim(`country_code`, country_code);
   }
 }
