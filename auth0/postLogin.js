@@ -3,9 +3,7 @@
  * @param {PostLoginAPI} api - Interface whose methods can be used to change the behavior of the login.
  */
 exports.onExecutePostLogin = async (event, api) => {
-  const FORM_ID = 'ap_i6ydt7LxUb6gGAAxJNmkj6';
-
-  api.prompt.render(FORM_ID);
+  api.prompt.render(event.secrets.FORM_ID);
 }
 
 /**
@@ -13,7 +11,6 @@ exports.onExecutePostLogin = async (event, api) => {
  * @param {PostLoginAPI} api - Interface whose methods can be used to change the behavior of the login.
  */
 exports.onContinuePostLogin = async (event, api) => {
-  const namespace = 'https://gansoft.io';
   const {first_name, last_name, phone, country_code} = event.user.user_metadata;
 
   if (event.authorization) {
