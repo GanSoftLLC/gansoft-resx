@@ -616,4 +616,7 @@ __queuestorage__
 __blobstorage__
 __queuestorage__
 
+# Exclusions
+!**/development.pfx
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,rider,csharp,windows,linux,macos
