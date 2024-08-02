@@ -1,0 +1,13 @@
+{
+    "pageTitle": "Iniciar sesión | GanSoft",
+    "title": "Entrar con tu cuenta",
+    "email": "Correo eléctronico",
+    "email_placeholder": "Correo eléctronico",
+    "password": "Contraseña",
+    "password_placeholder": "Contraseña",
+    "login": "Entrar",
+    "signup": "Registrarse",
+    "login_with_google": "Iniciar con Google",
+    "login_with_facebook": "Iniciar con Facebook",
+    "login_with_microsoft": "Iniciar con Microsoft"
+}

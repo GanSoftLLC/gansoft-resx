@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title data-lcid="pageTitle"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://gansoft.blob.core.windows.net/public/auth0/favicon.ico">
+    <link rel="fluid-icon" href="https://gansoft.blob.core.windows.net/public/auth0/images/fluidicon.png" title="GanSoft">
+</head>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .bg-login {
+        background-color: #63B78F;
+    }
+
+    .bg-login-clouds {
+        background-image: url("https://gansoft.blob.core.windows.net/public/auth0/images/bg-waves.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    @media (max-width: 767px) {
+        .bg-login-clouds {
+            background-image: none;
+            height: auto;
+        }
+    }
+
+    .bg-login-secondary .col:first-of-type {
+        height: calc(100vh - 111px);
+    }
+
+    .dynamic-height-login {
+        height: 100vh;
+        max-height: auto;
+    }
+
+    @media (max-width: 767.98px) {
+        .dynamic-height-login {
+            max-height: calc(100vh - 107px);
+        }
+    }
+
+    .login input.form-control {
+        font-size: 14px;
+        border: 0;
+        border-radius: .55rem;
+    }
+
+    .login button.btn {
+        font-weight: 600;
+    }
+
+    .btn-success,
+    .btn-success:hover,
+    .btn-success:active,
+    .btn-success:visited,
+    .btn-success:focus {
+        background-color: #63B78F;
+        border-color: #63B78F;
+    }
+
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:visited,
+    .btn-primary:focus {
+        background-color: #70B9EF;
+        border-color: #70B9EF;
+    }
+
+    .btn-danger,
+    .btn-danger:hover,
+    .btn-danger:active,
+    .btn-danger:visited,
+    .btn-danger:focus {
+        background-color: #EF5F50;
+        border-color: #EF5F50;
+    }
+
+    .btn-facebook,
+    .btn-facebook:hover,
+    .btn-facebook:active,
+    .btn-facebook:focus {
+        border: 0 !important;
+        background-color: #3b5998 !important;
+        color: white !important;
+    }
+
+    .btn-microsoft,
+    .btn-microsoft:hover,
+    .btn-microsoft:active,
+    .btn-microsoft:focus {
+        border: 0 !important;
+        background-color: #00a1f1 !important;
+        color: white !important;
+    }
+
+    .btn-google,
+    .btn-google:hover,
+    .btn-google:active,
+    .btn-google:focus {
+        border: 1px solid #dee0e2 !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
+    }
+
+    .btn-google div,
+    .btn-facebook div,
+    .btn-microsoft div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .btn-google .logo {
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 40px;
+        height: 40px;
+        background-image: url("https://gansoft.blob.core.windows.net/public/auth0/images/btn-google.svg");
+    }
+
+    .btn-microsoft .logo {
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center center;
+        width: 38px;
+        height: 36px;
+        background-image: url("https://gansoft.blob.core.windows.net/public/auth0/images/btn-microsoft.svg");
+    }
+
+    .btn-facebook .logo {
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center center;
+        width: 40px;
+        height: 40px;
+        background-image: url("https://gansoft.blob.core.windows.net/public/auth0/images/btn-facebook.svg");
+    }
+</style>
+
+<body>
+    <div class="container-fluid login bg-login" style="height: calc(100vh);">
+        <div class="row h-100 align-items-end">
+            <div class="col-lg-8 col-xxl-9 col-md-7 col-12 bg-login-clouds">
+                <div class="row bg-login-secondary">
+                    <div class="col d-none d-md-flex justify-content-center p-5">
+                        <img src="https://gansoft.blob.core.windows.net/public/auth0/images/bg-login.svg" alt="login"
+                            class="align-self-center img-fluid" style="max-height: 550px;" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col pb-4">
+                        <div class="px-4 d-flex mt-4 mt-md-0">
+                            <img src="https://gansoft.blob.core.windows.net/public/auth0/images/logo-h-white.svg" alt="Logo"
+                                class="img-fluid mx-auto mx-md-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xxl-3 col-md-5 col-12 d-flex flex-column justify-content-start align-items-stretch dynamic-height-login"
+                style="background-color: #EEF4F8; overflow-y: auto;">
+                <div class="row">
+                    <div class="col-12 d-none d-md-flex">
+                        <img src="https://gansoft.blob.core.windows.net/public/auth0/images/logo-h-color.svg" alt="Logo"
+                            class="img-fluid mx-auto my-4" />
+                    </div>
+                    <div class="col-12 text-center">
+                        <h1 class="h5 text-success fw-bold mt-3 mt-md-0" data-lcid="title">
+                            
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+                        <form onsubmit="return false;" method="post" class="w-100 py-2 px-4 ms-0 ms-md-auto">
+                            <div class="form-group">
+                                <label for="email" class="visually-hidden" aria-label="Email"
+                                    data-lcid="email">-</label>
+                                <input type="email" class="form-control p-3 text-center bg-white mb-3" id="email"
+                                    placeholder="" data-lcid="email_placeholder">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="visually-hidden" aria-label="Password"
+                                    data-lcid="password">-</label>
+                                <input type="password" class="form-control  p-3 text-center bg-white mb-3" id="password"
+                                    placeholder="" data-lcid="password_placeholder">
+                            </div>
+                            <div class="captcha-container form-group"></div>
+                            <div class="d-grid">
+                                <button type="submit" id="btn-login" class="btn btn-success btn-lg mb-3 text-white"
+                                    data-lcid="login">
+                                    
+                                </button>
+                                <button type="button" id="btn-signup" class="btn btn-primary btn-lg mb-3 text-white"
+                                    data-lcid="signup">
+                                    
+                                </button>
+                            </div>
+                            <hr>
+                            <div class="d-grid">
+                                <button type="button" id="btn-google" class="btn btn-google mb-3 text-start">
+                                    <div class="logo"></div>
+                                    <div class="ms-1" data-lcid="login_with_google"></div>
+                                </button>
+                            </div>
+                            <div class="d-grid">
+                                <button type="button" id="btn-facebook" class="btn btn-facebook mb-3 text-start">
+                                    <div class="logo"></div>
+                                    <div class="ms-3" data-lcid="login_with_facebook"></div>
+                                </button>
+                            </div>
+                            <div class="d-grid">
+                                <button type="button" id="btn-microsoft" class="btn btn-microsoft mb-3 text-start">
+                                    <div class="logo"></div>
+                                    <div class="ms-3" data-lcid="login_with_microsoft"></div>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--[if IE 8]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
+  <![endif]-->
+
+    <!--[if lte IE 9]>
+  <script src="https://cdn.auth0.com/js/polyfills/1.0/base64.min.js"></script>
+  <script src="https://cdn.auth0.com/js/polyfills/1.0/es5-shim.min.js"></script>
+  <![endif]-->
+
+    <script src="https://cdn.auth0.com/js/auth0/9.18/auth0.min.js"></script>
+    <script src="https://cdn.auth0.com/js/polyfills/1.0/object-assign.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        function getLanguage() {
+            var defaultLang = navigator.language.substring(0, 2);
+            (localStorage.getItem('language') == null) ? setLanguage(defaultLang) : false;
+            $.ajax({
+                url: 'https://gansoft.blob.core.windows.net/public/auth0/languages/' + localStorage.getItem('language') + '.json',
+                dataType: 'json',
+                async: true,
+                dataType: 'json',
+                success: function (lang) {
+                    var language = lang;
+                    var collection = $("*[data-lcid]");
+                    $.each(collection, function (index, item) {
+                        var key = $(item).data("lcid");
+                        var format = $(item).data("format");
+                        if (key !== null && (format === null || format === undefined || format === 'raw'))
+                        {
+                            if($(item).prop('type') !== undefined && ($(item).prop("type") == "text" || $(item).prop("type") == "email" || $(item).prop("type") == "password") )
+                                $(item).prop("placeholder", language[key]);
+                            else
+                                $(item).text(language[key]);
+                        }
+                        else if (format === "html")
+                            $(item).html(language[key]);
+
+                    });
+                }
+            });
+        }
+
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+            getLanguage();
+        }
+
+        $(document).ready(function () {
+            getLanguage();
+        });
+        window.addEventListener('load', function () {
+
+            var config = JSON.parse(
+                decodeURIComponent(escape(window.atob('@@config@@')))
+            );
+
+            var leeway = config.internalOptions.leeway;
+            if (leeway) {
+                var convertedLeeway = parseInt(leeway);
+
+                if (!isNaN(convertedLeeway)) {
+                    config.internalOptions.leeway = convertedLeeway;
+                }
+            }
+
+            var params = Object.assign({
+                overrides: {
+                    __tenant: config.auth0Tenant,
+                    __token_issuer: config.authorizationServer.issuer
+                },
+                domain: config.auth0Domain,
+                clientID: config.clientID,
+                redirectUri: config.callbackURL,
+                responseType: 'code'
+            }, config.internalOptions);
+
+            var webAuth = new auth0.WebAuth(params);
+            var databaseConnection = 'Username-Password-Authentication';
+            var captcha = webAuth.renderCaptcha(
+                document.querySelector('.captcha-container')
+            );
+
+            function login(e) {
+                e.preventDefault();
+                var button = this;
+                var username = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+                button.disabled = true;
+                webAuth.login({
+                    realm: databaseConnection,
+                    username: username,
+                    password: password,
+                    captcha: captcha.getValue()
+                }, function (err) {
+                    if (err) displayError(err);
+                    button.disabled = false;
+                });
+            }
+
+            function signup() {
+                var button = this;
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+
+                button.disabled = true;
+                webAuth.redirect.signupAndLogin({
+                    connection: databaseConnection,
+                    email: email,
+                    password: password,
+                    captcha: captcha.getValue()
+                }, function (err) {
+                    if (err) displayError(err);
+                    button.disabled = false;
+                });
+            }
+
+            function loginWithGoogle() {
+                webAuth.authorize({
+                    connection: 'google-oauth2'
+                }, function (err) {
+                    if (err) displayError(err);
+                });
+            }
+
+            function loginWithFacebook() {
+                webAuth.authorize({
+                    connection: 'facebook'
+                }, function (err) {
+                    if (err) displayError(err);
+                });
+            }
+
+            function loginWithMicrosoft() {
+                webAuth.authorize({
+                    connection: 'windowslive'
+                }, function (err) {
+                    if (err) displayError(err);
+                });
+            }
+
+            function displayError(err) {
+                captcha.reload();
+                var errorMessage = document.getElementById('error-message');
+                errorMessage.innerHTML = err.policy || err.description;
+                errorMessage.style.display = 'block';
+            }
+
+            document.getElementById('btn-login').addEventListener('click', login);
+            document.getElementById('btn-google').addEventListener('click', loginWithGoogle);
+            document.getElementById('btn-facebook').addEventListener('click', loginWithFacebook);
+            document.getElementById('btn-microsoft').addEventListener('click', loginWithMicrosoft);
+            document.getElementById('btn-signup').addEventListener('click', signup);
+        });
+    </script>
+</body>
+
+</html>

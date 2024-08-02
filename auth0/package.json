@@ -1,0 +1,15 @@
+{
+    "name": "auth0",
+    "version": "1.0.0",
+    "author": "Enner Pérez",
+    "scripts": {
+        "local": "ws --http2 --spa Login.htm"
+    },
+    "preferGlobal": true,
+    "devDependencies": {
+        "local-web-server": "5.3.3"
+    },
+    "dependencies": {
+        "auth0": "file:"
+    }
+}
