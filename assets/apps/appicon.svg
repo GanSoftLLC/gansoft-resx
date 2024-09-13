@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="appicon.svg"
+   width="512"
+   height="512"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.24539397"
+   inkscape:cx="-429.92092"
+   inkscape:cy="405.47044"
+   inkscape:window-width="1600"
+   inkscape:window-height="829"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+<style
+   type="text/css"
+   id="style1">
+    .st0 {
+        fill: #427760;
+    }
+</style>
+<rect
+   class="st0"
+   width="512"
+   height="512"
+   id="rect1"
+   x="0"
+   y="0"
+   style="stroke-width:1.12281" />
+<g
+   id="g2"
+   transform="translate(28,27.95)">
+<path
+   class="st0"
+   d="M 367.2,36.2 C 332.3,76.8 281.5,100.1 228,100.1 174.5,100.1 123.7,76.7 88.8,36.2 H 36 c 41.3,66.3 113.9,106.5 192,106.6 78.1,0 150.7,-40.3 192,-106.6 z"
+   id="path1"
+   style="fill:#ffffff" />
+<path
+   class="st0"
+   d="M 366.6,164 C 326.9,163.9 294,195.1 292,234.8 v 0 c 0,1.2 0,2.5 0,3.7 0,1.2 0,2.5 0,3.7 v 0 c -1,28.9 -12.6,56.4 -32.6,77.3 7.1,10.3 11,22.5 11.2,35.1 0,0.2 0,0.4 0,0.6 v 0.5 c 0,0.4 0,0.7 0,1.1 -0.3,5.4 -2.6,10.5 -6.6,14.3 -4,3.8 -9.2,5.9 -14.7,5.9 h -42.5 c -2.6,0 -5.2,-0.5 -7.7,-1.4 -7.8,-3 -13.2,-10.4 -13.6,-18.8 0,-0.3 0,-0.7 0,-1.1 v -0.1 c 0,-0.2 0,-0.4 0,-0.6 0.2,-12.5 4.1,-24.7 11.2,-35 -20,-20.8 -31.7,-48.4 -32.6,-77.3 0,-1.3 0,-2.7 0,-4 0,-1.3 0,-2.7 0,-4 C 161.8,195 129.1,164 89.4,164 H 78.7 v 42.6 h 10.7 c 16.5,0 30.4,12.5 31.9,29 0.2,2.1 0.2,4.1 0,6.2 0.6,31 10.2,61.2 27.7,86.8 -3.4,7.2 -5.5,15.1 -6,23 -0.1,1.4 -0.2,2.9 -0.2,4.4 0,15.3 5.5,30.2 15.6,41.8 12.1,14.1 29.8,22.1 48.4,22.1 h 42.6 c 27.1,-0.1 51.2,-17.1 60.3,-42.6 2.4,-6.8 3.7,-14.1 3.7,-21.3 0,-1.5 -0.1,-3 -0.2,-4.4 -0.5,-8 -2.6,-15.8 -6,-23.1 17.5,-25.7 27.2,-56 27.7,-87.1 -0.2,-1.8 -0.2,-3.7 0,-5.5 1.4,-16.6 15.2,-29.3 31.8,-29.3 h 10.7 V 164 Z"
+   id="path2"
+   style="fill:#ffffff" />
+</g></svg>
