@@ -15,6 +15,6 @@ Console.WriteLine("Invalid commit message");
 Console.ResetColor();
 Console.WriteLine("e.g: 'feat(scope): subject' or 'fix: subject'");
 Console.ForegroundColor = ConsoleColor.Gray;
-Console.WriteLine("more info: https://www.conventionalcommits.org/en/v1.0.0/");
+Console.WriteLine("more info: https://www.conventionalcommits.org/es/v1.0.0/");
 
 return 1;
