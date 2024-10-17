@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "nuke.globaltool": {
+      "version": "8.0.0",
+      "commands": [
+        "nuke"
+      ]
+    },
+    "dotnet-ef": {
+      "version": "8.0.8",
+      "commands": [
+        "dotnet-ef"
+      ]
+    },
+    "coverlet.console": {
+      "version": "6.0.2",
+      "commands": [
+        "coverlet"
+      ]
+    },
+    "husky": {
+      "version": "0.7.1",
+      "commands": [
+        "husky"
+      ],
+      "rollForward": false
+    }
+  }
+}
