@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+dotnet husky run -v --name "format-staged-files"
+dotnet husky run -v --name "format-xaml-files"
+echo
+echo Ready to commit changes! 🥂
+echo
