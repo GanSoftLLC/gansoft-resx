@@ -2,6 +2,20 @@
   "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
   "tasks": [
     {
+      "include": ["*.{cs}"],
+      "name": "format-staged-files",
+      "group": "pre-commit-operations",
+      "command": "dotnet",
+      "args": ["format", "--no-restore", "--include", "${staged}"]
+    },
+    {
+      "include": ["*.{xaml}"],
+      "name": "format-xaml-files",
+      "group": "pre-commit-operations",
+      "command": "dotnet",
+      "args": ["xstyler", "--file", "${staged}"]
+    },
+    {
       "name": "commit-message-linter",
       "group": "pre-commit-operations",
       "command": "dotnet",
