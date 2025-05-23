@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "59e08a29-bc12-4a49-beb8-9d54dcfd01fa",
+  "group": 14,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "F.Name"
+    }
+  },
+  "description": {
+    "en": "Farm´s Name",
+    "es": "Nombre de la hacienda",
+    "pt": "Nome da Fazenda"
+  }
+}

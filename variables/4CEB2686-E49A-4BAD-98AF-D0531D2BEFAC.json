@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4ceb2686-e49a-4bad-98af-d0531d2befac",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.RacialComposition"
+    }
+  },
+  "description": {
+    "en": "Racial Composition of Animal",
+    "es": "Composición racial del animal",
+    "pt": "Composição racial"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "25FB9339-E460-4200-B693-F4A418F70495",
+  "group": 1,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "CAST((DATEDIFF(DAY,A.BirthDate,@Date)/30.40) AS DECIMAL(9,2))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,A.BirthDate,@Date)/30.40)"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,A.BirthDate,@Date)/30.40)"
+    }
+  },
+  "description": {
+    "en": "Animal Age (Months)",
+    "es": "Edad del animal (meses)",
+    "pt": "Idade (meses)"
+  }
+}

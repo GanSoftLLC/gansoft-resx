@@ -1,0 +1,19 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "CC6C5040-4205-4225-807A-882DE24E636A",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.AnimalCrossing"
+    },
+    "sqlite": {
+      "default": "PADLEFT(A.AnimalCrossing)"
+    }
+  },
+  "description": {
+    "en": "Scheduled Mating of the animal",
+    "es": "Cruzamiento programado del animal",
+    "pt": "Acasalamento programado do animal"
+  }
+}

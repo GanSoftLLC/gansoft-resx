@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "89333801-A2DB-4527-9BD8-51B91D58B53D",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "(case when AFTH.Category > 7 then AFTH.Category else NULL end)"
+    }
+  },
+  "description": {
+    "en": "Origin of the animal (Mating/Insemination/Embryo)",
+    "es": "Origen del animal (Monta/Inseminación/Embrión)",
+    "pt": "Origem do animal (Acasalamento/Inseminação/Embrião)"
+  }
+}

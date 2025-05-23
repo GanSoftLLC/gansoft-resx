@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D77273EC-12E2-4E63-94D1-F6A6C27703D2",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.Category"
+    }
+  },
+ "description": {
+    "en": "Animal Category",
+    "es": "Categoría/Estado del animal",
+    "pt": "Categoria do animal"
+  }
+}

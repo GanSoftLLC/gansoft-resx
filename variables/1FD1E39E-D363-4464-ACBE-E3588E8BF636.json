@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1fd1e39e-d363-4464-acbe-e3588e8bf636",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.Name"
+    }
+  },
+  "description": {
+    "en": "Animal Name",
+    "es": "Nombre del animal",
+    "pt": "Nome do Animal"
+  }
+}

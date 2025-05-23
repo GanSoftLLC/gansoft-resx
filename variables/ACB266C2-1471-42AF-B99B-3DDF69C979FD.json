@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "acb266c2-1471-42af-b99b-3ddf69c979fd",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.Tits"
+    }
+  },
+  "description": {
+    "en": "Teat number (if female)",
+    "es": "Número de pezones (solo hembras)",
+    "pt": "Número de tetas"
+  }
+}

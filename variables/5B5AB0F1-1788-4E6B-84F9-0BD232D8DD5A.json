@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5b5ab0f1-1788-4e6b-84f9-0bd232d8dd5a",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.DeleteComment"
+    }
+  },
+  "description": {
+    "en": "Comment Removal",
+    "es": "Comentario de eliminación",
+    "pt": "Comentário Remoção"
+  }
+}
