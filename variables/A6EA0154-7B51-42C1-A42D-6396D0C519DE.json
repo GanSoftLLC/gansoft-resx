@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A6EA0154-7B51-42C1-A42D-6396D0C519DE",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "ASUM.BirthMotherNumber"
+    }
+  },
+  "description": {
+    "en": "Number of Birth Mother",
+    "es": "Número del parto de la Madre",
+    "pt": "Número de parto da mãe"
+  }
+}

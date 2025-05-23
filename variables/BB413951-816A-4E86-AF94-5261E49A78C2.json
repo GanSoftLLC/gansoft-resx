@@ -1,0 +1,16 @@
+{
+    "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+    "id": "BB413951-816A-4E86-AF94-5261E49A78C2",
+    "group": 1,
+    "type": "string",
+    "query": {
+      "select": {
+        "default": "CO.Description"
+      }
+    },
+    "description": {
+      "en": "Color Description",
+      "es": "Descripción del Color del Animal",
+      "pt": "Descrição da cor do animal"
+    }
+  }

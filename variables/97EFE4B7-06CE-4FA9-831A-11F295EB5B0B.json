@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "97efe4b7-06ce-4fa9-831a-11f295eb5b0b",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.DeleteReason"
+    }
+  },
+  "description": {
+    "en": "Cause of Removal (Death/Sell/ Sacred .....)",
+    "es": "Causa de eliminación (Muerte/Venta/Sacri.....)",
+    "pt": "Causa de remoção"
+  }
+}

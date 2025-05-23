@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "539e71e4-9b2b-494b-924a-c7820f6af8b7",
+  "group": 1,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,A.BirthDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Animal age (days)",
+    "es": "Edad del animal (días)",
+    "pt": "Idade (dias)"
+  }
+}

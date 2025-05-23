@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "c567f84c-2e36-42b0-b211-a27c6e409c0e",
+  "group": 1,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.DeleteDate"
+    }
+  },
+  "description": {
+    "en": "Animal Removal Date",
+    "es": "Fecha de eliminación del animal",
+    "pt": "Animal data de saída"
+  }
+}

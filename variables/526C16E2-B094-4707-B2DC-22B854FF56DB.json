@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "526C16E2-B094-4707-B2DC-22B854FF56DB",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "DTEC.Name"
+    }
+  },
+  "description": {
+    "en": "Technical Name for Animal Elimination",
+    "es": "Nombre Técnico en Eliminación del Animal",
+    "pt": "Nome Técnico para Eliminação Animal"
+  }
+}
