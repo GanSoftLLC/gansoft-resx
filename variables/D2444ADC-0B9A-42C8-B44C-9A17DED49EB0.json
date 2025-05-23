@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D2444ADC-0B9A-42C8-B44C-9A17DED49EB0",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "CL.Code"
+    }
+  },
+  "description": {
+    "en": "Animal Classification Code",
+    "es": "Código de Clasificación del Animal",
+    "pt": "Código de Classificação Animal"
+  }
+}

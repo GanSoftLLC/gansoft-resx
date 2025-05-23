@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BCFBD64E-1192-4D73-825F-F378ACE57D71",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "OW.Code"
+    }
+  },
+  "description": {
+    "en": "Animal Owner Code",
+    "es": "Código del Propietario del Animal",
+    "pt": "Código do proprietário do animal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A7274BC1-35AF-48D1-A08A-B407F81CA4A1",
+  "group": 1,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.CreationDate"
+    }
+  },
+  "description": {
+    "en": "Animal Creation Date",
+    "es": "Fecha de Creacion del animal",
+    "pt": "Data de criação do animal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2259dc5b-0931-49f2-9e80-7dbc634863d8",
+  "group": 1,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "CAST((DATEDIFF(DAY,A.BirthDate,@Date)/365.00) AS DECIMAL(9,2))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,A.BirthDate,@Date)/365.00)"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,A.BirthDate,@Date)/365.00)"
+    }
+  },
+  "description": {
+    "en": "Animal Age (Years)",
+    "es": "Edad del animal (años)",
+    "pt": "Idade (anos)"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "ace264d4-186b-40eb-9bb7-80ea6f987672",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.PracticalCode"
+    },
+    "sqlite": {
+      "default": "PADLEFT(A.PracticalCode)"
+    }
+  },
+  "description": {
+    "en": "Animal Code",
+    "es": "Código práctico del animal",
+    "pt": "Código do Animal"
+  }
+}
