@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "31101F80-07A9-436E-A872-52D685049E3A",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.On24MonthsWeight"
+    }
+  },
+  "description": {
+    "en": "Adjusted weight at 24 months of the animal",
+    "es": "Peso ajustado 24 meses del animal",
+    "pt": "Peso ajustado do animal aos 24 meses"
+  }
+}

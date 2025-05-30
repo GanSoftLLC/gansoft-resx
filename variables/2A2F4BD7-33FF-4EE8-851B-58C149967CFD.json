@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2A2F4BD7-33FF-4EE8-851B-58C149967CFD",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.BetweenFirstAndLastWeightGlobalWeightGain"
+    }
+  },
+  "description": {
+    "en": "Daily weight gain between first and last weight",
+    "es": "Ganancia diaria de peso entre primer y último peso",
+    "pt": "Ganho de peso diário entre o primeiro e o último peso"
+  }
+}

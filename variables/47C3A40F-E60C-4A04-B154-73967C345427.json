@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "47C3A40F-E60C-4A04-B154-73967C345427",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.BirthWeight"
+    }
+  },
+  "description": {
+    "en": "Birth weight of the animal",
+    "es": "Peso de nacimiento del animal",
+    "pt": "Peso do animal ao nascer"
+  }
+}

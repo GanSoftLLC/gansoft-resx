@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7EA739D1-4E75-4FF7-9CC0-74570D318309",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.ServiceWeight"
+    }
+  },
+  "description": {
+    "en": "Weight entered into service",
+    "es": "Peso entrada a servicio",
+    "pt": "Peso entrou em serviço"
+  }
+}

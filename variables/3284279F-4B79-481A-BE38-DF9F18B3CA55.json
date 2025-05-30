@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3284279F-4B79-481A-BE38-DF9F18B3CA55",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastWeight"
+    }
+  },
+  "description": {
+    "en": "Last weight of the animal",
+    "es": "Último peso del animal",
+    "pt": "Último peso do animal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BFB9EE79-ECEE-488D-810B-074B9CD2CAD9",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.On205DaysWeight"
+    }
+  },
+  "description": {
+    "en": "Adjusted weight at 205 days of the animal",
+    "es": "Peso ajustado 205 días del animal",
+    "pt": "Peso ajustado aos 205 dias do animal"
+  }
+}

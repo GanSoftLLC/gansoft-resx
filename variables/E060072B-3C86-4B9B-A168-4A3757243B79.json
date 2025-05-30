@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E060072B-3C86-4B9B-A168-4A3757243B79",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.WeaningWeight"
+    }
+  },
+  "description": {
+    "en": "Weaning weight of the animal",
+    "es": "Peso de destete del animal",
+    "pt": "Peso do animal ao desmame"
+  }
+}

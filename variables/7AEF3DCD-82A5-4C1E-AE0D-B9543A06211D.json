@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7AEF3DCD-82A5-4C1E-AE0D-B9543A06211D",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.On365DaysWeight"
+    }
+  },
+  "description": {
+    "en": "Adjusted weight at 365 days of the animal",
+    "es": "Peso ajustado 365 días del animal",
+    "pt": "Peso ajustado aos 365 dias do animal"
+  }
+}
