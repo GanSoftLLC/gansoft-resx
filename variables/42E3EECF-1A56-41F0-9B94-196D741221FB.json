@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "42E3EECF-1A56-41F0-9B94-196D741221FB",
+  "group": 5,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMISUM.ProductionTotalAverage"
+    }
+  },
+  "description": {
+    "en": "Average total production per lactation (historical)",
+    "es": "Promedio producción total por lactancia (histórico)",
+    "pt": "Produção total média por lactação (histórica)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6F24DECB-FA86-4935-875D-9C2B72CF764C",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.BetweenDeliveriesProductionAverage"
+    }
+  },
+  "description": {
+    "en": "Average production between births (historical)",
+    "es": "Promedio producción entre partos (histórico)",
+    "pt": "Produção média entre nascimentos (histórica)"
+  }
+}

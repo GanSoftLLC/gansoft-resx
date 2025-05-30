@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "37345072-35B4-4317-96CF-FED1B3D10F66",
+  "group": 5,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMISUM.ProductionDaysAverage"
+    }
+  },
+  "description": {
+    "en": "Average days in production per lactation (historical)",
+    "es": "Promedio Días en produccion por lactancia (histórico)",
+    "pt": "Média de dias em produção por lactação (histórico)"
+  }
+}

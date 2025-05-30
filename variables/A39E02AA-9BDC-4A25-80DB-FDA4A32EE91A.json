@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A39E02AA-9BDC-4A25-80DB-FDA4A32EE91A",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.BetweenDeliveriesWeightGainAverage"
+    }
+  },
+  "description": {
+    "en": "Average gain between births (historical)",
+    "es": "Promedio ganancia entre partos (histórico)",
+    "pt": "Ganho médio entre nascimentos (histórico)"
+  }
+}
