@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "239519F6-E30E-490F-BC51-B774B1AF511E",
+  "group": 1,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,ASUM.LastLocationDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Days elapsed between the last location to the date",
+    "es": "Días transcurridos entre la última locación a la fecha",
+    "pt": "Dias decorridos entre a última localização e a data"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D5E0211F-2000-4767-87EE-5C55CE40EA7A",
+  "group": 6,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "ASUM.FirstLocationDate"
+    }
+  },
+  "description": {
+    "en": "Animal first location date",
+    "es": "Fecha primera locación del animal",
+    "pt": "Data da primeira localização do animal"
+  }
+}
