@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "28867ee8-e287-454a-b811-bfe4bf210509",
+  "group": 4,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.LastInventoryDescription"
+    }
+  },
+  "description": {
+    "en": "Last Location Description Animal Inventory",
+    "es": "Descripción última locación del inventario del animal",
+    "pt": "Última Localização Inventário Animal Descrição"
+  }
+}
