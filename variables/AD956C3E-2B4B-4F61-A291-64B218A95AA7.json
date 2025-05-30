@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "AD956C3E-2B4B-4F61-A291-64B218A95AA7",
+  "group": 3,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastBodyConditionMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on the animal's last body condition",
+    "es": "Comentario última condición corporal del animal",
+    "pt": "Comente sobre a última condição corporal do animal"
+  }
+}
