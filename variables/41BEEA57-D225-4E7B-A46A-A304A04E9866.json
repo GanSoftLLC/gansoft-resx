@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "41BEEA57-D225-4E7B-A46A-A304A04E9866",
+  "group": 2,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,AHESUM.LastDiagnosticDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Days since last clinical diagnosis",
+    "es": "Días desde último diagnóstico clínico",
+    "pt": "Dias desde o último diagnóstico clínico"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "213C1B60-05F7-4EDA-839D-5F8646946CBE",
+  "group": 2,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastTreatmentCode"
+    }
+  },
+  "description": {
+    "en": "Last clinical treatment code",
+    "es": "Código último tratamiento clínico",
+    "pt": "Código do último tratamento clínico"
+  }
+}
