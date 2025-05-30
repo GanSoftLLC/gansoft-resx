@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5E54C23A-37F3-41C4-9348-F6E6D359FAC1",
+  "group": 11,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.EmbryoAge"
+    }
+  },
+  "description": {
+    "en": "Embryo age (days)",
+    "es": "Edad del Embrión (días)",
+    "pt": "Idade do embrião (dias)"
+  }
+}

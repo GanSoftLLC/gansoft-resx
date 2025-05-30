@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6660e464-12b5-4bc6-bf71-1eb9eacd8d84",
+  "group": 11,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.FrequentlyUsed"
+    }
+  },
+  "description": {
+    "en": "Frequent use ( Yes or No )",
+    "es": "Uso frecuente (Si ó No)",
+    "pt": "O uso freqüente ( Sim ou Não )"
+  }
+}
