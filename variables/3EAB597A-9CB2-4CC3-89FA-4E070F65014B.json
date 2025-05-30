@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3EAB597A-9CB2-4CC3-89FA-4E070F65014B",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentServiceNumber"
+    }
+  },
+  "description": {
+    "en": "Total number of animal services",
+    "es": "Número total de servicios del animal",
+    "pt": "Número total de serviços do animal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A1574AC4-5B14-4D39-A364-68E0C5919AF7",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionDate"
+    }
+  },
+  "description": {
+    "en": "Date of last embryo production",
+    "es": "Fecha última producción de embriones",
+    "pt": "Data da última produção de embriões"
+  }
+}

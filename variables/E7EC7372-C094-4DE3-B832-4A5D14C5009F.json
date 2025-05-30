@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E7EC7372-C094-4DE3-B832-4A5D14C5009F",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastAbortionDate"
+    }
+  },
+  "description": {
+    "en": "Date of last abortion",
+    "es": "Fecha del último aborto",
+    "pt": "Data do último aborto"
+  }
+}

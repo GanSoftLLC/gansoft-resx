@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A2E7EDFF-6B94-48B5-BE55-C4AB961D1161",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionNumber"
+    }
+  },
+  "description": {
+    "en": "Number of embryo production",
+    "es": "Número de producción de embriones",
+    "pt": "Número de produção de embriões"
+  }
+}

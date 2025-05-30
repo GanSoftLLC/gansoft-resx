@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "ADA3DC0A-598F-452A-A245-5AA1FE19331C",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,@Date,A.NextCheck))"
+    }
+  },
+  "description": {
+    "en": "Days until next check-up",
+    "es": "Días a la próxima revisión",
+    "pt": "Dias até o próximo exame"
+  }
+}

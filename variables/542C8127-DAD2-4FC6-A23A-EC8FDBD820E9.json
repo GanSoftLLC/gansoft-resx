@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "542C8127-DAD2-4FC6-A23A-EC8FDBD820E9",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "cast(((AMASUM.LastDeliveryMalesWeights)) as decimal(9,2))"
+    },
+    "where": {
+      "default": "((AMASUM.LastDeliveryMalesWeights))"
+    },
+    "order": {
+      "default": "((AMASUM.LastDeliveryMalesWeights))"
+    }
+  },
+  "description": {
+    "en": "Weight of males born from the last birth",
+    "es": "Peso machos nacidos del último parto",
+    "pt": "Peso dos machos nascidos do último parto"
+  }
+}

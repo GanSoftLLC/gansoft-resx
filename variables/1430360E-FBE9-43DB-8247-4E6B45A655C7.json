@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1430360E-FBE9-43DB-8247-4E6B45A655C7",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.DeliveryToFirstServiceAverage"
+    }
+  },
+  "description": {
+    "en": "Average calving first service (days)",
+    "es": "Promedio parto primer servicio (días)",
+    "pt": "Média de parto no primeiro serviço (dias)"
+  }
+}

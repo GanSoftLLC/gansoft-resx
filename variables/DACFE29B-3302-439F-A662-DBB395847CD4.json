@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "DACFE29B-3302-439F-A662-DBB395847CD4",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.EmbryoTransfersByPregnancyAverage"
+    }
+  },
+  "description": {
+    "en": "Average embryo transfer per conception",
+    "es": "Promedio transplantes por concepción",
+    "pt": "Média de transplantes por concepção"
+  }
+}

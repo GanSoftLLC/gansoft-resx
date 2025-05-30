@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C1A50404-A3DA-4DA2-A5F9-CBA7486EB32C",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryFemalesBorn"
+    }
+  },
+  "description": {
+    "en": "Females born from the last birth",
+    "es": "Hembras nacidas del último parto",
+    "pt": "Fêmeas nascidas do último parto"
+  }
+}

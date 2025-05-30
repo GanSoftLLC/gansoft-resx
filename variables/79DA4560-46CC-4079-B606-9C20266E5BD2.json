@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "79da4560-46cc-4079-b606-9c20266e5bd2",
+  "group": 10,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.ReproductiveStatus"
+    }
+  },
+  "description": {
+    "en": "Reproductive Status ( Pregnant / Empty / Waiting)",
+    "es": "Estado actual reproductivo (Preñada/Vacía/Espera)",
+    "pt": "Status Reprodutiva ( grávidas / Vazia / em espera)"
+  }
+}

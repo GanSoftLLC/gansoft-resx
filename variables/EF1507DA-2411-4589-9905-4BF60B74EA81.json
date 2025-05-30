@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "EF1507DA-2411-4589-9905-4BF60B74EA81",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryMalesBorn"
+    }
+  },
+  "description": {
+    "en": "Males born from the last birth",
+    "es": "Machos nacidos del último parto",
+    "pt": "Machos nascidos do último nascimento"
+  }
+}

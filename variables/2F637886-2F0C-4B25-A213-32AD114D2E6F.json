@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2f637886-2f0c-4b25-a213-32ad114d2e6f",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.NextHeat"
+    }
+  },
+  "description": {
+    "en": "Date of next heat",
+    "es": "Fecha del próximo celo",
+    "pt": "Data de Celo Seguinte"
+  }
+}

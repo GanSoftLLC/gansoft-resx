@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "F26D8A91-44A8-437C-B214-7C0D14ADECA3",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.DeliveryToFirstHeatAverage"
+    }
+  },
+  "description": {
+    "en": "Average first heat birth (days)",
+    "es": "Promedio parto primer celo (días)",
+    "pt": "Média do primeiro parto no cio (dias)"
+  }
+}

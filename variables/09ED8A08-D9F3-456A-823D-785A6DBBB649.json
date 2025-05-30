@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "09ED8A08-D9F3-456A-823D-785A6DBBB649",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentPregnancyEmptyDays"
+    }
+  },
+  "description": {
+    "en": "Current empty days",
+    "es": "Días vacía actual",
+    "pt": "Dias vazios atuais"
+  }
+}

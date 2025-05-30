@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3CAB894E-DFDF-49BE-90BA-4168482BB734",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastHeatDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastHeatDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastHeatDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Days since last heat",
+    "es": "Días transcurridos desde el último celo",
+    "pt": "Dias desde a última bateria"
+  }
+}

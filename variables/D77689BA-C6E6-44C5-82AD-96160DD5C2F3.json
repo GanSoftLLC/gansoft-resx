@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D77689BA-C6E6-44C5-82AD-96160DD5C2F3",
+  "group": 10,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryOffspringCodes"
+    }
+  },
+  "description": {
+    "en": "Unique codes of the last birth's offspring",
+    "es": "Códigos únicos de las crías del último parto",
+    "pt": "Códigos únicos da prole do último nascimento"
+  }
+}
