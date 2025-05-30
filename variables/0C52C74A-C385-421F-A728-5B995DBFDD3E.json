@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0C52C74A-C385-421F-A728-5B995DBFDD3E",
+  "group": 9,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMISUM.LastMilkingProductionDays"
+    }
+  },
+  "description": {
+    "en": "Current production days",
+    "es": "Días en producción actual",
+    "pt": "Dias na produção atual"
+  }
+}

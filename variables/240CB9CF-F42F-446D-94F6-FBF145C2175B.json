@@ -1,0 +1,15 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "240CB9CF-F42F-446D-94F6-FBF145C2175B",
+  "group": 9,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMISUM.LastMilkingStartDate"
+    },
+  "description": {
+    "en": "Start date of last breastfeeding",
+    "es": "Fecha de comienzo de la última lactancia",
+    "pt": "Data de início da última amamentação"
+  }
+}

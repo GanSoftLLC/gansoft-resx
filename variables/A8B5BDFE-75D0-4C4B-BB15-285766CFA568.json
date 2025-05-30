@@ -1,0 +1,15 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A8B5BDFE-75D0-4C4B-BB15-285766CFA568",
+  "group": 9,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMISUM.LastMilkingDryOffDate"
+    }
+  "description": {
+    "en": "Dry-Off date",
+    "es": "Fecha de secado",
+    "pt": "Data de secagem"
+  }
+}

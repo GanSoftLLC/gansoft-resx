@@ -1,0 +1,15 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C858F4DE-4BCF-47D1-B306-7E713E1DC815",
+  "group": 9,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMISUM.LastMilkingDryOffDays"
+    }
+  "description": {
+    "en": "Current dry days",
+    "es": "Días seca actual",
+    "pt": "Dias secos atuais"
+  }
+}
