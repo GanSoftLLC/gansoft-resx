@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B9573985-B8C3-4E0A-9A2A-34B5D19C665A",
+  "group": 4,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,ASUM.LastInventoryDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Days since the last animal inventory",
+    "es": "Días desde el último inventario del animal",
+    "pt": "Dias desde o último inventário animal"
+  }
+}

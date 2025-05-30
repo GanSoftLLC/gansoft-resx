@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6CF40AEC-A0B4-49EF-A8F3-DFCFDF3587EC",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastAbortionWithMilkNumber"
+    }
+  },
+  "description": {
+    "en": "Number of abortions with lactation",
+    "es": "Número de abortos con lactancia",
+    "pt": "Número de abortos com lactação"
+  }
+}

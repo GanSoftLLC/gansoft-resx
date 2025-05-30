@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "40AFE87D-7BF1-40D8-8220-75A813C99BB2",
+  "group": 9,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "CAST(AMISUM.LastMilkingOn305DaysProduction as decimal(9,1)) "
+    },
+    "where": {
+      "default": "(AMISUM.LastMilkingOn305DaysProduction)"
+    },
+    "order": {
+      "default": "(AMISUM.LastMilkingOn305DaysProduction)"
+    }
+  },
+  "description": {
+    "en": "Current 305-Day Production",
+    "es": "Producción 305 Días actual",
+    "pt": "Produção atual de 305 dias"
+  }
+}

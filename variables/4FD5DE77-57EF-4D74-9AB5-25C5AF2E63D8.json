@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4FD5DE77-57EF-4D74-9AB5-25C5AF2E63D8",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.BetweenProductionAverage"
+    }
+  },
+  "description": {
+    "en": "Average production between lactations (historical)",
+    "es": "Promedio producción entre lactancias (histórico)",
+    "pt": "Produção média entre lactações (histórica)"
+  }
+}

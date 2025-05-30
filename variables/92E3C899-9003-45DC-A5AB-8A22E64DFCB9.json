@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "92E3C899-9003-45DC-A5AB-8A22E64DFCB9",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.ChecksByDeliveryAverage"
+    }
+  },
+  "description": {
+    "en": "Average check-ups per delivery",
+    "es": "Promedio revisiones por parto",
+    "pt": "Média de consultas por parto"
+  }
+}

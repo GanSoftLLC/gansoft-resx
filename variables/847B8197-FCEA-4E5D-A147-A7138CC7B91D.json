@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "847B8197-FCEA-4E5D-A147-A7138CC7B91D",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.BetweenDeliveriesAverage]"
+    }
+  },
+  "description": {
+    "en": "Average delivery to delivery (days)",
+    "es": "Promedio parto-parto (días)",
+    "pt": "Tempo médio de entrega (dias)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5FB1FB2C-4B3A-4093-81C2-D190047C2191",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Fecha)))"
+    }
+  },
+  "description": {
+    "en": "Projected weight to date",
+    "es": "Peso proyectado a la fecha",
+    "pt": "Peso projetado até o momento"
+  }
+}

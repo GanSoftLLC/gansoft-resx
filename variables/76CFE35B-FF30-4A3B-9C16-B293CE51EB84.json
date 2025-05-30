@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "76cfe35b-ff30-4a3b-9c16-b293ce51eb84",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "A.AgeAtFirstService"
+    }
+  },
+  "description": {
+    "en": "Age at first service (months)",
+    "es": "Edad al primer servicio (meses)",
+    "pt": "Idade ao primeiro serviço (meses)"
+  }
+}

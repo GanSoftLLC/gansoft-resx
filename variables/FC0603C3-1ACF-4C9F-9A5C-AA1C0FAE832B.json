@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FC0603C3-1ACF-4C9F-9A5C-AA1C0FAE832B",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryNumber"
+    }
+  },
+  "description": {
+    "en": "Number of births of the animal",
+    "es": "Número de partos del animal",
+    "pt": "Número de nascimentos do animal"
+  }
+}

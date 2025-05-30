@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "F1FB8E29-9409-4B52-8629-9882A0092BD4",
+  "group": 3,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastBodyCondition"
+    }
+  },
+  "description": {
+    "en": "Last body condition of the animal",
+    "es": "Última condición corporal del animal",
+    "pt": "Última condição corporal do animal"
+  }
+}

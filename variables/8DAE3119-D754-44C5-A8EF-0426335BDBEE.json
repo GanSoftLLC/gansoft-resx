@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8DAE3119-D754-44C5-A8EF-0426335BDBEE",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastAbortionNumber"
+    }
+  },
+  "description": {
+    "en": "Number of abortions of the animal",
+    "es": "Número de abortos del animal",
+    "pt": "Número de abortos do animal"
+  }
+}

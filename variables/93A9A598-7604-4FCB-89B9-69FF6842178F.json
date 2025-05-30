@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "93A9A598-7604-4FCB-89B9-69FF6842178F",
+  "group": 2,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastDiagnosticCode"
+    }
+  },
+  "description": {
+    "en": "Code of the last clinical diagnosis",
+    "es": "Código del último diagnóstico clínico",
+    "pt": "Código do último diagnóstico clínico"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BE97A90F-4C5E-4731-AFB0-921FCFFA433E",
+  "group": 10,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastServiceTechnicianCode"
+    }
+  },
+  "description": {
+    "en": "Unique code of the technician from the last service",
+    "es": "Código único del técnico del último servicio",
+    "pt": "Código único do técnico do último serviço"
+  }
+}

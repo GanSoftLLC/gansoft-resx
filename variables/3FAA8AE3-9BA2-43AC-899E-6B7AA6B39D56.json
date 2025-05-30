@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3FAA8AE3-9BA2-43AC-899E-6B7AA6B39D56",
+  "group": 9,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "CAST(AMISUM.LastMilkingProductionTotal  as decimal(9,1)) "
+    },
+    "where": {
+      "default": "(AMISUM.LastMilkingProductionTota)"
+    },
+    "order": {
+      "default": "(AMISUM.LastMilkingProductionTotal)"
+    }
+  },
+  "description": {
+    "en": "Current total production",
+    "es": "Producción total acumulada actual",
+    "pt": "Produção acumulada total atual"
+  }
+}

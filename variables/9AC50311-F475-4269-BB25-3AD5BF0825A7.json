@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "9AC50311-F475-4269-BB25-3AD5BF0825A7",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastAbortionDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastAbortionDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastAbortionDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Days since the last abortion",
+    "es": "Días transcurridos desde el último aborto",
+    "pt": "Dias desde o último aborto"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "517E9ACE-CD47-4701-82B6-BD934460A40A",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.WeaningWeightDate"
+    }
+  },
+  "description": {
+    "en": "Weaning weight date of the animal",
+    "es": "Fecha de peso de destete del animal",
+    "pt": "Data de desmame do peso do animal"
+  }
+}

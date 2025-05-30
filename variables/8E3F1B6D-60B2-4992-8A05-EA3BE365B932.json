@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8E3F1B6D-60B2-4992-8A05-EA3BE365B932",
+  "group": 2,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastDiagnosticMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on last clinical diagnosis",
+    "es": "Comentario último diagnóstico clínico",
+    "pt": "Comentário sobre o último diagnóstico clínico"
+  }
+}

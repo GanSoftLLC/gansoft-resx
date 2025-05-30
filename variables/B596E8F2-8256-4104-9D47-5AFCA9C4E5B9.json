@@ -1,0 +1,15 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B596E8F2-8256-4104-9D47-5AFCA9C4E5B9",
+  "group": 9,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMISUM.NextToLastMilkWeightDate"
+    },
+  "description": {
+    "en": "Date of the penultimate milk weighing",
+    "es": "Fecha del penúltimo pesaje de leche",
+    "pt": "Data da penúltima pesagem do leite"
+  }
+}

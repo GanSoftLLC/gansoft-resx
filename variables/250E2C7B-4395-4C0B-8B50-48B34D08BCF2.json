@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "250e2c7b-4395-4c0b-8b50-48b34d08bcf2",
+  "group": 4,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "ASUM.LastInventoryDate"
+    }
+  },
+  "description": {
+    "en": "Animal Last Inventory Date",
+    "es": "Fecha último inventario del animal",
+    "pt": "Data do último inventário do animal"
+  }
+}

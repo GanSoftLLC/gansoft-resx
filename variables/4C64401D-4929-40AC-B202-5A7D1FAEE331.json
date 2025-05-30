@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4C64401D-4929-40AC-B202-5A7D1FAEE331",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Days since last birth",
+    "es": "Días transcurridos desde el último parto",
+    "pt": "Dias desde o último nascimento"
+  }
+}

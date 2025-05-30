@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4573DB4A-F92F-4F0E-B843-764737945312",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastCheckDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastCheckDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastCheckDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Days since the last check",
+    "es": "Días transcurridos desde el último examen",
+    "pt": "Dias desde o último exame"
+  }
+}

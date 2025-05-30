@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "78CA08E4-6B42-4C16-8603-474BCD77A1A2",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.DeliveryToPregnancyAverage]"
+    }
+  },
+  "description": {
+    "en": "Average birth-conception (days)",
+    "es": "Promedio parto-concepción (días)",
+    "pt": "Média de nascimento-concepção (dias)"
+  }
+}

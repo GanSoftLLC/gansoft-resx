@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "230E667F-0635-4DA4-BA71-B2614A4EAA12",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentEmbryoTransferNumber"
+    }
+  },
+  "description": {
+    "en": "Embryo transfer number",
+    "es": "Número de trasplantes del animal",
+    "pt": "Número de transferência de embriões"
+  }
+}

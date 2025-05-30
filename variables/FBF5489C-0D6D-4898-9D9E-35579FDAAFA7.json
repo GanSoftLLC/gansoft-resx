@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FBF5489C-0D6D-4898-9D9E-35579FDAAFA7",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "cast(((AMASUM.LastDeliveryFemalesWeights)) as decimal(9,2))"
+    },
+    "where": {
+      "default": "((AMASUM.LastDeliveryFemalesWeights))"
+    },
+    "order": {
+      "default": "((AMASUM.LastDeliveryFemalesWeights))"
+    }
+  },
+  "description": {
+    "en": "Weight of females born from the last birth",
+    "es": "Peso hembras nacidas del último parto",
+    "pt": "Peso das fêmeas nascidas do último parto"
+  }
+}

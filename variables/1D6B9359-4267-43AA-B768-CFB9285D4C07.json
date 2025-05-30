@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1D6B9359-4267-43AA-B768-CFB9285D4C07",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.WeaningWeightsAverage"
+    }
+  },
+  "description": {
+    "en": "Average weaned weight per lactation",
+    "es": "Promedio peso destetados por lactancia",
+    "pt": "Peso médio desmamado por lactação"
+  }
+}

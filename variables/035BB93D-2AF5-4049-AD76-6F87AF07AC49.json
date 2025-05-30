@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "035BB93D-2AF5-4049-AD76-6F87AF07AC49",
+  "group": 2,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastTreatmentMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on the latest clinical treatment",
+    "es": "Comentario último tratamiento clínico",
+    "pt": "Comente sobre o último tratamento clínico"
+  }
+}

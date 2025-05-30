@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0B9F6F3F-7BD5-481A-AB1F-36DA12985DF8",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentMatingNumber"
+    }
+  },
+  "description": {
+    "en": "Number of mounts of the animal",
+    "es": "Número de montas del animal",
+    "pt": "Número de vezes que o animal é montado"
+  }
+}

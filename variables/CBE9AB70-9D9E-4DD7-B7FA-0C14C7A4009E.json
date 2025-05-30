@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "CBE9AB70-9D9E-4DD7-B7FA-0C14C7A4009E",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.DepartureWeightDate"
+    }
+  },
+  "description": {
+    "en": "Date of weight at departure",
+    "es": "Fecha del peso a la salida",
+    "pt": "Data do peso na partida"
+  }
+}

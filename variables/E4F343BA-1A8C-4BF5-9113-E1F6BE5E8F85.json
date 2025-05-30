@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E4F343BA-1A8C-4BF5-9113-E1F6BE5E8F85",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastCheckDate"
+    }
+  },
+  "description": {
+    "en": "Date of last review",
+    "es": "Fecha de la última revisión",
+    "pt": "Data da última revisão"
+  }
+}

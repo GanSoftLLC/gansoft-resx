@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FAFAB703-1E94-4829-86CA-D5440E8AE527",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastDryOffWeightDate"
+    }
+  },
+  "description": {
+    "en": "Date of last weight at drying",
+    "es": "Fecha último peso al secado",
+    "pt": "Data da última pesagem na secagem"
+  }
+}

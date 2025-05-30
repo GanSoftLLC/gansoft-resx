@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7D8E49E2-70ED-446F-9AFB-C5B6F0EF77E9",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.On270DaysProductionAverage"
+    }
+  },
+  "description": {
+    "en": "Average production at 270 days per lactation (historical)",
+    "es": "Promedio producción a 270 días por lactancia (histórico)",
+    "pt": "Produção média aos 270 dias por lactação (histórico)"
+  }
+}

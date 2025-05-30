@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7F4FD873-F205-4BB2-A946-0744399C88F9",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.ArrivalWeight"
+    }
+  },
+  "description": {
+    "en": "Animal's entry weight",
+    "es": "Peso de ingreso del animal",
+    "pt": "Peso de entrada do animal"
+  }
+}

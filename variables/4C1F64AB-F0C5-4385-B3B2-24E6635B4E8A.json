@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4C1F64AB-F0C5-4385-B3B2-24E6635B4E8A",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMISUM.WeaningAverage"
+    }
+  },
+  "description": {
+    "en": "Average number weaned per lactation",
+    "es": "Promedio destetados por lactancia",
+    "pt": "Número médio de desmamados por lactação"
+  }
+}

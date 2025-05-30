@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "28867ee8-e287-454a-b811-bfe4bf210509",
+  "group": 4,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.LastInventoryMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on the last location of the animal's inventory",
+    "es": "Comentario última locación del inventario del animal",
+    "pt": "Comente sobre a última localização do inventário do animal"
+  }
+}

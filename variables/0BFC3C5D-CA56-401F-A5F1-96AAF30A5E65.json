@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0BFC3C5D-CA56-401F-A5F1-96AAF30A5E65",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,@Date,A.NextHeat))"
+    }
+  },
+  "description": {
+    "en": "Days until next heat",
+    "es": "Días al próximo celo",
+    "pt": "Dias até a próxima bateria"
+  }
+}
