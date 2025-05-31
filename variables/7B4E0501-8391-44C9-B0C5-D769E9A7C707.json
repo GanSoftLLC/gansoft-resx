@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "DTEC.Code"
-    },
-    "sqlite": {
-      "default": "PADLEFT(DTEC.Code)"
     }
   },
   "description": {

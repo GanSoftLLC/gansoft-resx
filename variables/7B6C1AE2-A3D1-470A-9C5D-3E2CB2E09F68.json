@@ -1,16 +1,16 @@
 {
-    "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-    "id": "7B6C1AE2-A3D1-470A-9C5D-3E2CB2E09F68",
-    "group": 1,
-    "type": "string",
-    "query": {
-      "select": {
-        "default": "CL.Description"
-      }
-    },
-    "description": {
-      "en": "Description of Animal Classification",
-      "es": "Descripción de la Clasificación del Animal",
-      "pt": "Descrição da Classificação Animal"
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7B6C1AE2-A3D1-470A-9C5D-3E2CB2E09F68",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "CL.Description"
     }
+  },
+  "description": {
+    "en": "Description of Animal Classification",
+    "es": "Descripción de la Clasificación del Animal",
+    "pt": "Descrição da Classificação Animal"
   }
+}

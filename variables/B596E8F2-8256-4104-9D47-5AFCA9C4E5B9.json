@@ -6,7 +6,8 @@
   "query": {
     "select": {
       "default": "AMISUM.NextToLastMilkWeightDate"
-    },
+    }
+  },
   "description": {
     "en": "Date of the penultimate milk weighing",
     "es": "Fecha del penúltimo pesaje de leche",

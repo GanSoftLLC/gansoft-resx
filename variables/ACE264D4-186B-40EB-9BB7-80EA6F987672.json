@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "A.PracticalCode"
-    },
-    "sqlite": {
-      "default": "PADLEFT(A.PracticalCode)"
     }
   },
   "description": {

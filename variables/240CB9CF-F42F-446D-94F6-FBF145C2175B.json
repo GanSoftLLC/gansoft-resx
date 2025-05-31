@@ -5,8 +5,9 @@
   "type": "datetime",
   "query": {
     "select": {
-      "default": "AMISUM.LastMilkingStartDate"
-    },
+      "default": "AMISUM.LastMilkingStartDate",
+    }
+  },
   "description": {
     "en": "Start date of last breastfeeding",
     "es": "Fecha de comienzo de la última lactancia",

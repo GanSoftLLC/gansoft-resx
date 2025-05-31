@@ -7,6 +7,7 @@
     "select": {
       "default": "AMISUM.LastMilkingDryOffDate"
     }
+  },
   "description": {
     "en": "Dry-Off date",
     "es": "Fecha de secado",
