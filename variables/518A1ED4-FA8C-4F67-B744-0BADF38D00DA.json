@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "A.UniqueCode"
-    },
-    "sqlite": {
-      "default": "PADLEFT(A.UniqueCode)"
     }
   },
   "description": {

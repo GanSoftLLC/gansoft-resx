@@ -1,16 +1,16 @@
 {
-    "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-    "id": "8B07C454-BE6F-4683-8E0E-387DCA27F57C",
-    "group": 1,
-    "type": "string",
-    "query": {
-      "select": {
-        "default": "OW.Description"
-      }
-    },
-    "description": {
-      "en": "Description of Animal Owner",
-      "es": "Descripción del Propietario del Animal",
-      "pt": "Descrição do proprietário do animal"
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8B07C454-BE6F-4683-8E0E-387DCA27F57C",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "OW.Description"
     }
+  },
+  "description": {
+    "en": "Description of Animal Owner",
+    "es": "Descripción del Propietario del Animal",
+    "pt": "Descrição do proprietário do animal"
   }
+}

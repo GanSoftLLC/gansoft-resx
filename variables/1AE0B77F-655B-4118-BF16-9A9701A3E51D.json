@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "AREC.UniqueCode"
-    },
-    "sqlite": {
-      "default": "PADLEFT(AREC.UniqueCode)"
     }
   },
   "description": {

@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "A.ElectronicId"
-    },
-    "sqlite": {
-      "default": "PADLEFT(A.ElectronicId)"
     }
   },
   "description": {

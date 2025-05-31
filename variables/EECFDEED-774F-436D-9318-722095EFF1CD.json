@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "AFM.UniqueCode"
-    },
-    "sqlite": {
-      "default": "PADLEFT(AFM.UniqueCode)"
     }
   },
   "description": {

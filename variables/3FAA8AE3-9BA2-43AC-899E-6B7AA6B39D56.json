@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "CAST(AMISUM.LastMilkingProductionTotal  as decimal(9,1)) "
+      "default": "CAST(AMISUM.LastMilkingProductionTotal as decimal(9,1))"
     },
     "where": {
       "default": "(AMISUM.LastMilkingProductionTota)"

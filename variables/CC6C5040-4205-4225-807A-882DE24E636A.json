@@ -6,9 +6,6 @@
   "query": {
     "select": {
       "default": "A.AnimalCrossing"
-    },
-    "sqlite": {
-      "default": "PADLEFT(A.AnimalCrossing)"
     }
   },
   "description": {

@@ -5,15 +5,15 @@
   "type": "decimal",
   "query": {
     "select": {
-        "default": "CAST(AMISUM.LastMilkWeightValue as decimal(9,2)) "
-      },
-      "where": {
-        "default": "(AMISUM.LastMilkWeightValueL)"
-      },
-      "order": {
-        "default": "(AMISUM.LastMilkWeightValue)"
-      }
+      "default": "CAST(AMISUM.LastMilkWeightValue as decimal(9,2)) "
     },
+    "where": {
+      "default": "(AMISUM.LastMilkWeightValueL)"
+    },
+    "order": {
+      "default": "(AMISUM.LastMilkWeightValue)"
+    }
+  },
   "description": {
     "en": "Last milk weighing",
     "es": "Último pesaje de leche",
