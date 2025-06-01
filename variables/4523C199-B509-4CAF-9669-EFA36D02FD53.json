@@ -1,6 +1,6 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "4523c199-b509-4caf-9669-efa36d02fd53",
+  "id": "4523C199-B509-4CAF-9669-EFA36D02FD53",
   "group": 1,
   "type": "short",
   "query": {
