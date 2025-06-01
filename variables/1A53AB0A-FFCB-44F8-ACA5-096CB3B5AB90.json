@@ -1,6 +1,6 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "36A6142C-9E8E-4D02-B34D-50099785B82B",
+  "id": "1A53AB0A-FFCB-44F8-ACA5-096CB3B5AB90",
   "group": 10,
   "type": "datetime",
   "query": {
