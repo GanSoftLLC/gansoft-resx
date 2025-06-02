@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "(AMISUM.ProductionTotalAverage/NULLIF(AMISUM.ProductionDaysAverage,0))"
+      "default": "(AMISUM.ProductionTotalAverage/NULLIF(AMISUM.ProductionDaysAverage,0)*1.000000)"
     }
   },
   "description": {
