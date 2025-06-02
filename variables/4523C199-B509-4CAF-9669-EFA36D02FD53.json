@@ -5,7 +5,7 @@
   "type": "short",
   "query": {
     "select": {
-      "default": "(case A.Category WHEN 1 THEN @Female WHEN 2 THEN @Female WHEN 3 THEN @Female WHEN 4 THEN @Female WHEN 5 THEN @Male WHEN 6 THEN @Male WHEN 7 THEN @Male WHEN 8 THEN @Male WHEN 9 THEN @Male ELSE @Unknown end)"
+      "default": "(CASE WHEN A.Category < 5 THEN 2 ELSE (CASE WHEN A.Category < 10 THEN 1 ELSE 0 END) END)"
     }
   },
   "description": {
