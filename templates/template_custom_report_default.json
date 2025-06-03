@@ -1,0 +1,53 @@
+{
+  "id": "f50d6f64-7b9b-40bf-eb7b-08dda1f9ce94",
+  "number": "T001",
+  "name": "T001",
+  "description": "Default Template",
+  "isPublic": false,
+  "reportType": 2,
+  "farmId": "b6e78c4b-cc5a-4e8a-8ac6-228c6da227a7",
+  "farms": [
+    "b6e78c4b-cc5a-4e8a-8ac6-228c6da227a7"
+  ],
+  "subscriptionId": "3af131c4-e44d-410d-b650-0b0e555d5357",
+  "variables": [
+    {
+      "id": "ace264d4-186b-40eb-9bb7-80ea6f987672",
+      "customReportId": "f50d6f64-7b9b-40bf-eb7b-08dda1f9ce94",
+      "alias": "Código práctico del animal",
+      "node": 1,
+      "type": "string",
+      "variableType": 1,
+      "index": 1,
+      "operator": 0,
+      "values": null,
+      "order": 0
+    },
+    {
+      "id": "12689770-5fbd-4ad7-bfbe-cd97c7a12fa2",
+      "customReportId": "f50d6f64-7b9b-40bf-eb7b-08dda1f9ce94",
+      "alias": "Estatus del animal (Activo/Inactivo/Referencia)",
+      "node": 1,
+      "type": "short",
+      "variableType": 2,
+      "index": 3,
+      "operator": 1,
+      "values": [
+        1
+      ],
+      "order": 0
+    },
+    {
+      "id": "ace264d4-186b-40eb-9bb7-80ea6f987672",
+      "customReportId": "f50d6f64-7b9b-40bf-eb7b-08dda1f9ce94",
+      "alias": "Código práctico del animal",
+      "node": 1,
+      "type": "string",
+      "variableType": 3,
+      "index": 2,
+      "operator": 0,
+      "values": null,
+      "order": 1
+    }
+  ]
+}
