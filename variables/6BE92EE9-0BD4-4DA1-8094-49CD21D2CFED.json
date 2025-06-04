@@ -8,6 +8,10 @@
       "default": "AMASUM.FirstServiceDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of first service",
     "es": "Fecha del primer servicio",

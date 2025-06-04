@@ -8,6 +8,10 @@
       "default": "A.Status"
     }
   },
+    "format": {
+    "name": "StatusTypeFormatter",
+    "params": null
+  },
   "description": {
     "en": "Animal status (Active/Inactive/Reference)",
     "es": "Estatus del animal (Activo/Inactivo/Referencia)",

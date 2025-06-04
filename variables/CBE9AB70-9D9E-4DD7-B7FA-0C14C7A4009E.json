@@ -8,6 +8,10 @@
       "default": "AGRSUM.DepartureWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of weight at departure",
     "es": "Fecha del peso a la salida",

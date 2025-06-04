@@ -8,6 +8,10 @@
       "default": "AMASUM.FirstServiceDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of first birth",
     "es": "Fecha del primer parto",

@@ -8,6 +8,10 @@
       "default": "A.DeleteDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal Removal Date",
     "es": "Fecha de eliminación del animal",

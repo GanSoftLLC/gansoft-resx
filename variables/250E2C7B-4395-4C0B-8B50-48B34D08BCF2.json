@@ -8,6 +8,10 @@
       "default": "ASUM.LastInventoryDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal Last Inventory Date",
     "es": "Fecha último inventario del animal",

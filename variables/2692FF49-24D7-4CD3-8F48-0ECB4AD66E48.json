@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastBodyConditionDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Last date body condition",
     "es": "Fecha última condición corporal",

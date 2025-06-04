@@ -8,6 +8,10 @@
       "default": "A.BirthDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal Birth Date",
     "es": "Fecha de nacimiento del animal",

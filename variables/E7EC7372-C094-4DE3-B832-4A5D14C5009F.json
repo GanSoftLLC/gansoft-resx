@@ -8,6 +8,10 @@
       "default": "AMASUM.LastAbortionDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of last abortion",
     "es": "Fecha del último aborto",

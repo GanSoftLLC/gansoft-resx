@@ -8,6 +8,10 @@
       "default": "ASUM.FirstLocationDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal first location date",
     "es": "Fecha primera locación del animal",

@@ -8,6 +8,10 @@
       "default": "AGRSUM.ArrivalWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of entry weight of the animal",
     "es": "Fecha de peso de ingreso del animal",

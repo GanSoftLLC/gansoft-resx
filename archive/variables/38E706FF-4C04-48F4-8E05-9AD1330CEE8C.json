@@ -8,6 +8,10 @@
       "default": "ASUM.LastGeneralCommentDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Date of last general comment on the animal",
     "es": "Fecha último comentario general del animal",

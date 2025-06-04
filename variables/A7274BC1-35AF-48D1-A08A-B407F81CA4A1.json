@@ -8,6 +8,10 @@
       "default": "A.CreationDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal Creation Date",
     "es": "Fecha de Creacion del animal",

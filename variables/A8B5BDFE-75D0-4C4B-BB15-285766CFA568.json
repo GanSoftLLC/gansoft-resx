@@ -8,6 +8,10 @@
       "default": "AMISUM.LastMilkingDryOffDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Dry-Off date",
     "es": "Fecha de secado",

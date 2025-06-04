@@ -8,6 +8,10 @@
       "default": "AHESUM.LastTreatmentDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Last clinical treatment date",
     "es": "Fecha último tratamiento clínico",

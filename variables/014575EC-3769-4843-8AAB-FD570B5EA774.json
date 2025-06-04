@@ -8,6 +8,10 @@
       "default": "ASUM.LastLocationDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": "shortdate"
+  },  
   "description": {
     "en": "Animal Last location date",
     "es": "Fecha última locación del animal",
