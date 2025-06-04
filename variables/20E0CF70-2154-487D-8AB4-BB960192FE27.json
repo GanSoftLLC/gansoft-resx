@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "DateTimeFormatter",
-    "params": "shortdate"
+    "params": [ "shortdate" ]
   },  
   "description": {
     "en": "Animal Birth Date",
