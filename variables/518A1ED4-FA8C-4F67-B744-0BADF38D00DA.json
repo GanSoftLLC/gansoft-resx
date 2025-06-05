@@ -8,6 +8,10 @@
       "default": "A.UniqueCode"
     }
   },
+  "format": {
+    "name": "PadLeftFormatter",
+    "params": [ 12 ]
+  }, 
   "description": {
     "en": "Animal Unique Code",
     "es": "Código único del animal",

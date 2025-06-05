@@ -8,6 +8,10 @@
       "default": "AMISUM.NextToLastMilkWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of the penultimate milk weighing",
     "es": "Fecha del penúltimo pesaje de leche",

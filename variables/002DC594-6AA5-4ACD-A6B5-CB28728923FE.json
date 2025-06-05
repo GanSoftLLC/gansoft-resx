@@ -8,6 +8,10 @@
       "default": "AMASUM.LastDeliveryDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last delivery",
     "es": "Fecha del último parto",

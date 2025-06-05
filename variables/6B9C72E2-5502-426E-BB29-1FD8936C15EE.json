@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastDeliveryWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last delivery weight",
     "es": "Fecha último peso al parto",

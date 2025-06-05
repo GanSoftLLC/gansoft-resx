@@ -8,6 +8,10 @@
       "default": "AGRSUM.ServiceWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of entry into service",
     "es": "Fecha entrada a servicio",

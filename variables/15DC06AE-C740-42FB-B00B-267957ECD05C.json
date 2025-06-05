@@ -8,6 +8,10 @@
       "default": "A.NextBirth"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Next Delivery Date",
     "es": "Fecha del próximo parto",

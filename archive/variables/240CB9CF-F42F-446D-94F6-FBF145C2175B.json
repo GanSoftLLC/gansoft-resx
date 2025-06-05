@@ -8,6 +8,10 @@
       "default": "AMISUM.LastMilkingStartDate",
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Start date of last breastfeeding",
     "es": "Fecha de comienzo de la última lactancia",

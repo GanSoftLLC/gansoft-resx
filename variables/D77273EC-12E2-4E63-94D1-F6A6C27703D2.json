@@ -8,7 +8,11 @@
       "default": "A.Category"
     }
   },
- "description": {
+    "format": {
+    "name": "CategoryTypeFormatter",
+    "params": null
+  },
+  "description": {
     "en": "Animal Category",
     "es": "Categoría/Estado del animal",
     "pt": "Categoria do animal"

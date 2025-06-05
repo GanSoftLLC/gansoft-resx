@@ -8,6 +8,10 @@
       "default": "AGRSUM.NextToLastWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of the Animal's penultimate weight",
     "es": "Fecha del penúltimo peso del Animal",

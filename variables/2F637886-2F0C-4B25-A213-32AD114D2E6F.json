@@ -8,6 +8,10 @@
       "default": "A.NextHeat"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of next heat",
     "es": "Fecha del próximo celo",

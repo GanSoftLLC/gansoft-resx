@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastDryOffWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last weight at drying",
     "es": "Fecha último peso al secado",

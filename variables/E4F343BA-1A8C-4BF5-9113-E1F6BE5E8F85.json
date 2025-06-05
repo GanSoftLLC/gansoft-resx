@@ -8,6 +8,10 @@
       "default": "AMASUM.LastCheckDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last review",
     "es": "Fecha de la última revisión",

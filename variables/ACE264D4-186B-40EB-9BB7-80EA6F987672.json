@@ -8,6 +8,10 @@
       "default": "A.PracticalCode"
     }
   },
+  "format": {
+    "name": "PadLeftFormatter",
+    "params": [ 12 ]
+  }, 
   "description": {
     "en": "Animal Code",
     "es": "Código práctico del animal",

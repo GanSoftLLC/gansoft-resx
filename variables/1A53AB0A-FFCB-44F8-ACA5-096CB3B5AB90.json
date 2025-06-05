@@ -8,6 +8,10 @@
       "default": "AMASUM.LastServiceDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last service",
     "es": "Fecha del último servicio",

@@ -8,6 +8,10 @@
       "default": "AGRSUM.WeaningWeightDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Weaning weight date of the animal",
     "es": "Fecha de peso de destete del animal",

@@ -8,6 +8,10 @@
       "default": "A.NextCheck"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Next Review Date",
     "es": "Fecha de la próxima revisión",

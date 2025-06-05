@@ -8,6 +8,10 @@
       "default": "AMASUM.LastHeatDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last heat",
     "es": "Fecha del último celo",

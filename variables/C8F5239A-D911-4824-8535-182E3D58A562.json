@@ -8,6 +8,10 @@
       "default": "A.LastUpdateDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Animal Last Update Date",
     "es": "Fecha de la última actualización del animal",

@@ -8,6 +8,10 @@
       "default": "AHESUM.LastDiagnosticDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Last clinical diagnosis date",
     "es": "Fecha último diagnóstico clínico",

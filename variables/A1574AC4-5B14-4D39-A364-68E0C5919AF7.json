@@ -8,6 +8,10 @@
       "default": "AMASUM.LastEmbryoProductionDate"
     }
   },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
   "description": {
     "en": "Date of last embryo production",
     "es": "Fecha última producción de embriones",
