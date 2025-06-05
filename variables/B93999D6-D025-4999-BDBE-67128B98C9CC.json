@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B93999D6-D025-4999-BDBE-67128B98C9CC",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.ArrivalWeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of entry weight of the animal",
+    "es": "Fecha de peso de ingreso del animal",
+    "pt": "Data de entrada peso do animal"
+  }
+}

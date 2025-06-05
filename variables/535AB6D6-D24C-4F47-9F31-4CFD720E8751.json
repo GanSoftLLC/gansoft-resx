@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "535AB6D6-D24C-4F47-9F31-4CFD720E8751",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.ServiceWeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of entry into service",
+    "es": "Fecha entrada a servicio",
+    "pt": "Data de entrada em serviço"
+  }
+}

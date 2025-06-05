@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C81C5785-221E-4C56-916E-FE6A4A142A01",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastDeliveryWeight"
+    }
+  },
+  "description": {
+    "en": "Weight at last calving",
+    "es": "Peso al último parto",
+    "pt": "Peso no último parto"
+  }
+}

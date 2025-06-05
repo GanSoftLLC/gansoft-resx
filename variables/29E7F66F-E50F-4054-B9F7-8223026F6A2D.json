@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "29E7F66F-E50F-4054-B9F7-8223026F6A2D",
+  "group": 5,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMISUM.DryOffDaysAverage"
+    }
+  },
+  "description": {
+    "en": "Average dry days per lactation (historical)",
+    "es": "Promedio días seca por lactancia (histórico)",
+    "pt": "Média de dias secos por lactação (histórico)"
+  }
+}

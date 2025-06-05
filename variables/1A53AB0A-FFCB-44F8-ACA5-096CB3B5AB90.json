@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1A53AB0A-FFCB-44F8-ACA5-096CB3B5AB90",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastServiceDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of last service",
+    "es": "Fecha del último servicio",
+    "pt": "Data do último serviço"
+  }
+}

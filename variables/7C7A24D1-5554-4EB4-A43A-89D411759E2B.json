@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7C7A24D1-5554-4EB4-A43A-89D411759E2B",
+  "group": 9,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "AMISUM.LastMilkingNumber"
+    }
+  },
+  "description": {
+    "en": "Number of lactations of the animal",
+    "es": "Número de lactancias del animal",
+    "pt": "Número de lactações do animal"
+  }
+}

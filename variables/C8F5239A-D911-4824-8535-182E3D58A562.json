@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C8F5239A-D911-4824-8535-182E3D58A562",
+  "group": 1,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.LastUpdateDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Animal Last Update Date",
+    "es": "Fecha de la última actualización del animal",
+    "pt": "Data da última atualização do animal"
+  }
+}

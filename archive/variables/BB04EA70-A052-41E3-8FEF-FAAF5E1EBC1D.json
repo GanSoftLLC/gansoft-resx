@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BB04EA70-A052-41E3-8FEF-FAAF5E1EBC1D",
+  "group": 2,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastDiagnosticDescription"
+    }
+  },
+  "description": {
+    "en": "Description of last clinical diagnosis",
+    "es": "Descripción último diagnóstico clínico",
+    "pt": "Descrição do último diagnóstico clínico"
+  }
+}

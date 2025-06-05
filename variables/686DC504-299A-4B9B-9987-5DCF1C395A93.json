@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "686DC504-299A-4B9B-9987-5DCF1C395A93",
+  "group": 3,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastBodyConditionType"
+    }
+  },
+  "description": {
+    "en": "Type of last body condition",
+    "es": "Tipo de la última condición corporal",
+    "pt": "Tipo de última condição corporal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "EECFDEED-774F-436D-9318-722095EFF1CD",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AFM.UniqueCode"
+    }
+  },
+  "description": {
+    "en": "Unique Code for Adoptive Mothers",
+    "es": "Código Único de la Madre adoptiva",
+    "pt": "Código Único para Mães Adotivas"
+  }
+}

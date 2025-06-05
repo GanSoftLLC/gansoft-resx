@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8887AD00-D254-4F63-84AF-E506A0ABB926",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentInseminationNumber"
+    }
+  },
+  "description": {
+    "en": "Number of inseminations of the animal",
+    "es": "Número de inseminaciones del animal",
+    "pt": "Número de inseminações do animal"
+  }
+}

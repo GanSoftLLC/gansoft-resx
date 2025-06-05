@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "F2CFECC2-115F-403E-A691-AF380AF278C7",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastHeatDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of last heat",
+    "es": "Fecha del último celo",
+    "pt": "Data da última bateria"
+  }
+}

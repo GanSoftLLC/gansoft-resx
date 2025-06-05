@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "56E367C9-7E51-4373-A057-6AF38414EC4C",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.FirstServiceDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of first birth",
+    "es": "Fecha del primer parto",
+    "pt": "Data do primeiro nascimento"
+  }
+}

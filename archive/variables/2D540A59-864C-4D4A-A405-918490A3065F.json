@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2D540A59-864C-4D4A-A405-918490A3065F",
+  "group": 6,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.FirstLocationDescription"
+    }
+  },
+  "description": {
+    "en": "Description of the animal's first location",
+    "es": "Descripción de la primera locación del animal",
+    "pt": "Descrição da primeira localização do animal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C5C86684-F672-40A8-9145-7128C0DBBFCF",
+  "group": 3,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,AGRSUM.LastBodyConditionDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Days since last body condition assessment",
+    "es": "Días desde última evaluación de condición corporal",
+    "pt": "Dias desde a última avaliação da condição corporal"
+  }
+}

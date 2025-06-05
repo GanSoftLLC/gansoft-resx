@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "12689770-5FBD-4AD7-BFBE-CD97C7A12FA2",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "A.Status"
+    }
+  },
+    "format": {
+    "name": "StatusTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Animal status (Active/Inactive/Reference)",
+    "es": "Estatus del animal (Activo/Inactivo/Referencia)",
+    "pt": "Status do animal (Ativo/Inativo/Referência)"
+  }
+}

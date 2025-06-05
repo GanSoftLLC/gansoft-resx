@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B776D49D-B50C-4D1F-9512-0EECEC341070",
+  "group": 9,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "cast((AMISUM.LastMilkingProductionTotal/ NULLIF(AMISUM.LastMilkingProductionDays,0)) as decimal(9,2))"
+    },
+    "where": {
+      "default": "((AMISUM.LastMilkingProductionTotal/ NULLIF(AMISUM.LastMilkingProductionDays,0)))"
+    },
+    "order": {
+      "default": "((AMISUM.LastMilkingProductionTotal/ NULLIF(AMISUM.LastMilkingProductionDays,0)))"
+    }
+  },
+  "description": {
+    "en": "Average daily last lactation",
+    "es": "Promedio diario última lactancia",
+    "pt": "Média diária da última lactação"
+  }
+}

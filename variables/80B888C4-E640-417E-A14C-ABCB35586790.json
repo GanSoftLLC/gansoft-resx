@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "80B888C4-E640-417E-A14C-ABCB35586790",
+  "group": 5,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "(AMISUM.ProductionTotalAverage/NULLIF(AMISUM.ProductionDaysAverage,0)*1.000000)"
+    }
+  },
+  "description": {
+    "en": "Average daily milk (historical)",
+    "es": "Promedio diario de leche (histórico)",
+    "pt": "Média diária de leite (histórico)"
+  }
+}

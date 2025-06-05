@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7807DFE6-3028-4F65-A185-9DF094752D62",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain"
+    }
+  },
+  "description": {
+    "en": "Daily weight gain between penultimate and last weight",
+    "es": "Ganancia diaria de peso entre penúltimo y último peso",
+    "pt": "Ganho de peso diário entre o penúltimo e o último peso"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3EDBCE1E-0C1C-449A-A33C-F4BA2AECE1CE",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.BetweenHeatsAverage"
+    }
+  },
+  "description": {
+    "en": "Average days between heats",
+    "es": "Promedio días entre celos",
+    "pt": "Média de dias entre as baterias"
+  }
+}

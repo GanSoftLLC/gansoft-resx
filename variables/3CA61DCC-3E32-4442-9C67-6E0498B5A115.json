@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3CA61DCC-3E32-4442-9C67-6E0498B5A115",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.NextToLastWeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of the Animal's penultimate weight",
+    "es": "Fecha del penúltimo peso del Animal",
+    "pt": "Data do penúltimo peso do animal"
+  }
+}

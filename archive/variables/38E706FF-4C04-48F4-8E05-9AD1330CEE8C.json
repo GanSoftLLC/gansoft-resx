@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "38E706FF-4C04-48F4-8E05-9AD1330CEE8C",
+  "group": 1,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "ASUM.LastGeneralCommentDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of last general comment on the animal",
+    "es": "Fecha último comentario general del animal",
+    "pt": "Data do último comentário geral sobre o animal"
+  }
+}

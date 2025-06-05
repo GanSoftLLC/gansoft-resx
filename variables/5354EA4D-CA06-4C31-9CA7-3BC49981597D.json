@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5354EA4D-CA06-4C31-9CA7-3BC49981597D",
+  "group": 2,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastTreatmentDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Last clinical treatment date",
+    "es": "Fecha último tratamiento clínico",
+    "pt": "Data do último tratamento clínico"
+  }
+}

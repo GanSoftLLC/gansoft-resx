@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1DDA49E7-F196-4851-9735-37143F42FB7A",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryTotalBorn"
+    }
+  },
+  "description": {
+    "en": "Total live births last delivery",
+    "es": "Total nacidos vivos último parto",
+    "pt": "Total de nascidos vivos último parto"
+  }
+}

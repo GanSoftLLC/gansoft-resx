@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "21250fc5-fcd5-4b13-916b-627809ac2d94",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "A.AgeAtFirstBirth"
+    }
+  },
+  "description": {
+    "en": "Age at First Calving (months)",
+    "es": "Edad al primer parto (meses)",
+    "pt": "Idade ao primeiro parto (meses)"
+  }
+}

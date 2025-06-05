@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1AE0B77F-655B-4118-BF16-9A9701A3E51D",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AREC.UniqueCode"
+    }
+  },
+  "description": {
+    "en": "Unique Receiver Code",
+    "es": "Código Único de la Receptora",
+    "pt": "Código Único do Receptor"
+  }
+}

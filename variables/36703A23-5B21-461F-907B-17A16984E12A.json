@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "36703A23-5B21-461F-907B-17A16984E12A",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryMalesAlive"
+    }
+  },
+  "description": {
+    "en": "Live-born males from the last birth",
+    "es": "Machos nacidos vivos del último parto",
+    "pt": "Machos nascidos vivos do último nascimento"
+  }
+}

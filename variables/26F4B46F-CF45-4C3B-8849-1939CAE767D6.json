@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "26F4B46F-CF45-4C3B-8849-1939CAE767D6",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.ServicesByPregnancyAverage"
+    }
+  },
+  "description": {
+    "en": "Average services per conception",
+    "es": "Promedio servicios por concepción",
+    "pt": "Média de serviços por concepção"
+  }
+}

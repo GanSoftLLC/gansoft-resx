@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "87A83438-1D28-4F9F-B126-0FE4DDE23BC3",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastDryOffWeight"
+    }
+  },
+  "description": {
+    "en": "Weight at last drying",
+    "es": "Peso al último secado",
+    "pt": "Peso na última secagem"
+  }
+}

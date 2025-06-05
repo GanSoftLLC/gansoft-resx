@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6B9C72E2-5502-426E-BB29-1FD8936C15EE",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastDeliveryWeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of last delivery weight",
+    "es": "Fecha último peso al parto",
+    "pt": "Data do último peso ao parto"
+  }
+}

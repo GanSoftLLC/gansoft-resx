@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6BE92EE9-0BD4-4DA1-8094-49CD21D2CFED",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.FirstServiceDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of first service",
+    "es": "Fecha del primer servicio",
+    "pt": "Data do primeiro serviço"
+  }
+}

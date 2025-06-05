@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "88379434-02a9-4e1b-8e79-09f792a81d56",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.NextCheck"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Next Review Date",
+    "es": "Fecha de la próxima revisión",
+    "pt": "Data da próxima revisão"
+  }
+}

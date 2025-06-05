@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D0522FDF-0A5A-42E4-8F49-2E77335F5E26",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.Comments"
+    }
+  },
+  "description": {
+    "en": "General Animal Comments",
+    "es": "Comentarios generales del Animal",
+    "pt": "Comentários gerais sobre animais"
+  }
+}

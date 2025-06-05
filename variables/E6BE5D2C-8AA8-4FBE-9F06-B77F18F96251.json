@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E6BE5D2C-8AA8-4FBE-9F06-B77F18F96251",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.DepartureWeight"
+    }
+  },
+  "description": {
+    "en": "Weight at exit",
+    "es": "Peso a la salida",
+    "pt": "Peso na saída"
+  }
+}

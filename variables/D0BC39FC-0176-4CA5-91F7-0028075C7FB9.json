@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "D0BC39FC-0176-4CA5-91F7-0028075C7FB9",
+  "group": 9,
+  "type": "decimal",
+  "query": {
+    "select": {
+        "default": "CAST(AMISUM.NextToLastMilkWeightValue as decimal(9,2)) "
+      },
+      "where": {
+        "default": "(AMISUM.NextToLastMilkWeightValue)"
+      },
+      "order": {
+        "default": "(AMISUM.NextToLastMilkWeightValue)"
+      }
+    },
+  "description": {
+    "en": "Next to Last milk weighing",
+    "es": "Penúltimo pesaje de leche",
+    "pt": "Penúltima pesagem do leite"
+  }
+}

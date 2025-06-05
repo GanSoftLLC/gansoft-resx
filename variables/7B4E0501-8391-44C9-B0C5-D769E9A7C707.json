@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7B4E0501-8391-44C9-B0C5-D769E9A7C707",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "DTEC.Code"
+    }
+  },
+  "description": {
+    "en": "Technical Code for Animal Elimination",
+    "es": "Código Técnico en Eliminación del Animal",
+    "pt": "Código Técnico para Eliminação Animal"
+  }
+}

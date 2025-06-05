@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7E671573-F6B9-49E3-9B7C-6B01D1925129",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.MatingsByPregnancyAverage"
+    }
+  },
+  "description": {
+    "en": "Average mounts per conception",
+    "es": "Promedio montas por concepción",
+    "pt": "Média de montas por concepção"
+  }
+}

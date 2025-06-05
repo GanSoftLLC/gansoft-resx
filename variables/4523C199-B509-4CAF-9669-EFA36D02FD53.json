@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "4523C199-B509-4CAF-9669-EFA36D02FD53",
+  "group": 1,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "(CASE WHEN A.Category < 5 THEN 2 ELSE (CASE WHEN A.Category < 10 THEN 1 ELSE 0 END) END)"
+    }
+  },
+  "description": {
+    "en": "Animal Sex (Male / Female)",
+    "es": "Sexo del animal (Macho/Hembra)",
+    "pt": "Animal Sexo (Masculino / Feminino)"
+  }
+}

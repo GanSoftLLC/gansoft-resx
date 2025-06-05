@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "ACF08138-F9B5-48BA-B7C3-15DC24BBAADD",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.BetweenChecksAverage"
+    }
+  },
+  "description": {
+    "en": "Average days between check-ups",
+    "es": "Promedio días entre revisiones",
+    "pt": "Média de dias entre consultas"
+  }
+}

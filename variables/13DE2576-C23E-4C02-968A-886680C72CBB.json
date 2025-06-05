@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "13DE2576-C23E-4C02-968A-886680C72CBB",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastServiceDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastServiceDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastServiceDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Days elapsed since the last service",
+    "es": "Días transcurridos desde el último servicio",
+    "pt": "Dias decorridos desde o último serviço"
+  }
+}

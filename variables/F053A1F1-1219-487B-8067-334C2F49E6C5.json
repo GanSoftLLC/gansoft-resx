@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "F053A1F1-1219-487B-8067-334C2F49E6C5",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryOrAbortionDate,@Date))"
+    },
+    "where": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryOrAbortionDate,@Date))"
+    },
+    "order": {
+      "default": "(DATEDIFF(DAY,AMASUM.LastDeliveryOrAbortionDate,@Date))"
+    }
+  },
+  "description": {
+    "en": "Current birth days",
+    "es": "Días parida actual",
+    "pt": "Dias de nascimento atuais"
+  }
+}

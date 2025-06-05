@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0F44E451-3401-4D31-9579-433CA6986F85",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "CO.Code"
+    }
+  },
+  "description": {
+    "en": "Animal Color Code",
+    "es": "Código de Color del Animal",
+    "pt": "Código de core do Animal"
+  }
+}

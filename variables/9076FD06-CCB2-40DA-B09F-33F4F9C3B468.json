@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "9076FD06-CCB2-40DA-B09F-33F4F9C3B468",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.CurrentHeatNumber"
+    }
+  },
+  "description": {
+    "en": "Number of heats without service of the animal",
+    "es": "Número celos sin servicios del animal",
+    "pt": "Número de cios sem serviço do animal"
+  }
+}

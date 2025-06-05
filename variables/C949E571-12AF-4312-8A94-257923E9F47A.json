@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C949E571-12AF-4312-8A94-257923E9F47A",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.InseminationsByPregnancyAverage"
+    }
+  },
+  "description": {
+    "en": "Average inseminations per conception",
+    "es": "Promedio inseminaciones por concepción",
+    "pt": "Média de inseminações por concepção"
+  }
+}

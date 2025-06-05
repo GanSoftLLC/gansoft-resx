@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1E77E0FF-5AC6-4351-BCCA-FFB30A6803F0",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,@Date,A.NextBirth))"
+    }
+  },
+  "description": {
+    "en": "Days until next delivery",
+    "es": "Días al próximo parto",
+    "pt": "Dias até a próxima entrega"
+  }
+}

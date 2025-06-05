@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FA12ACCF-EBBB-4F54-964B-4FF1686996E1",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.GestationDaysAverage"
+    }
+  },
+  "description": {
+    "en": "Average days of gestation",
+    "es": "Promedio días gestación",
+    "pt": "Média de dias de gestação"
+  }
+}

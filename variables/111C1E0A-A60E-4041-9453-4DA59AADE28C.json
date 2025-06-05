@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "111C1E0A-A60E-4041-9453-4DA59AADE28C",
+  "group": 6,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.NextToLastLocationCode"
+    }
+  },
+  "description": {
+    "en": "Next to Last Location of Animal",
+    "es": "Penúltima locación del animal",
+    "pt": "Penúltima localização do animal"
+  }
+}

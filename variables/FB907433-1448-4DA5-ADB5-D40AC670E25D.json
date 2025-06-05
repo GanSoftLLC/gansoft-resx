@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "fb907433-1448-4da5-adb5-d40ac670e25d",
+  "group": 14,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "F.OwnerName"
+    }
+  },
+  "description": {
+    "en": "Farm´s Owner",
+    "es": "Propietario de la hacienda",
+    "pt": "Proprietário da Fazenda"
+  }
+}

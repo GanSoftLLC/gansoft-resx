@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FFDF28BB-9ADF-414D-B093-20598BDB12AE",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.LastGeneralComment"
+    }
+  },
+  "description": {
+    "en": "Last general comment of the animal",
+    "es": "Último comentario general del animal",
+    "pt": "Último comentário geral do animal"
+  }
+}

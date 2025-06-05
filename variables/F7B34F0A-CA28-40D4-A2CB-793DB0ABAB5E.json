@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "F7B34F0A-CA28-40D4-A2CB-793DB0ABAB5E",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.NextToLastWeight"
+    }
+  },
+  "description": {
+    "en": "Next to last weight of the animal",
+    "es": "Penúltimo peso del animal",
+    "pt": "Penúltimo peso do animal"
+  }
+}

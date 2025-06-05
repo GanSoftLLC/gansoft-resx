@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "7001326a-7c30-47b0-8533-1ecf9d59e0f4",
+  "group": 4,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.LastInventoryCode"
+    }
+  },
+  "description": {
+    "en": "Last Location Code Animal Inventory",
+    "es": "Código última locación del inventario del animal",
+    "pt": "Última Localização Inventário Animal Código"
+  }
+}

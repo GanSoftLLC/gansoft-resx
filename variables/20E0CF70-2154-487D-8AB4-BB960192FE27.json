@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "20e0cf70-2154-487d-8ab4-bb960192fe27",
+  "group": 1,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.BirthDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Animal Birth Date",
+    "es": "Fecha de nacimiento del animal",
+    "pt": "Data do nascimento do Animal"
+  }
+}

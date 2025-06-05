@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "05EEA8FE-0E77-4738-A4D2-C919E5E35A9F",
+  "group": 6,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.FirstLocationMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on the animal's first location",
+    "es": "Comentario primera locación del animal",
+    "pt": "Comente sobre a primeira localização do animal"
+  }
+}

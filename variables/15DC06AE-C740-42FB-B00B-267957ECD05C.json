@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "15dc06ae-c740-42fb-b00b-267957ecd05c",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "A.NextBirth"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Next Delivery Date",
+    "es": "Fecha del próximo parto",
+    "pt": "Data de Entrega Seguinte"
+  }
+}

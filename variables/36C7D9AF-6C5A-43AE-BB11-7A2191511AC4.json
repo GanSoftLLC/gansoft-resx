@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "36C7D9AF-6C5A-43AE-BB11-7A2191511AC4",
+  "group": 1,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "A.ElectronicId"
+    }
+  },
+  "description": {
+    "en": "Electronic ID",
+    "es": "ID Electrónico del animal",
+    "pt": "Identificação eletrônica do animal"
+  }
+}

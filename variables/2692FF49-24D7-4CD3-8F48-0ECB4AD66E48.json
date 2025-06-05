@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2692FF49-24D7-4CD3-8F48-0ECB4AD66E48",
+  "group": 3,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastBodyConditionDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Last date body condition",
+    "es": "Fecha última condición corporal",
+    "pt": "Data da última condição corporal"
+  }
+}

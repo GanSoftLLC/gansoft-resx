@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "A38001A3-184C-4C56-B3AC-A991FB108A7B",
+  "group": 2,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AHESUM.LastDiagnosticDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Last clinical diagnosis date",
+    "es": "Fecha último diagnóstico clínico",
+    "pt": "Data do último diagnóstico clínico"
+  }
+}

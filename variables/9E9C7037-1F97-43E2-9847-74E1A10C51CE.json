@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "9e9c7037-1f97-43e2-9847-74e1a10c51ce",
+  "group": 6,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "ASUM.LastLocationMemo"
+    }
+  },
+  "description": {
+    "en": "Comment on the animal's last location",
+    "es": "Comentario última locación del animal",
+    "pt": "Comente sobre a última localização do animal"
+  }
+}
