@@ -8,6 +8,10 @@
       "default": "AGRSUM.BirthWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Birth weight of the animal",
     "es": "Peso de nacimiento del animal",

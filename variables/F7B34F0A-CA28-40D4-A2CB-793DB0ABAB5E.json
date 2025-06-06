@@ -8,6 +8,10 @@
       "default": "AGRSUM.NextToLastWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Next to last weight of the animal",
     "es": "Penúltimo peso del animal",

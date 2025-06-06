@@ -14,6 +14,10 @@
       "default": "((AMASUM.LastDeliveryMalesWeights))"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Weight of males born from the last birth",
     "es": "Peso machos nacidos del último parto",

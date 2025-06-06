@@ -5,7 +5,7 @@
   "type": "datetime",
   "query": {
     "select": {
-      "default": "AMISUM.LastMilkingStartDate",
+      "default": "AMISUM.LastMilkingStartDate"
     }
   },
   "format": {

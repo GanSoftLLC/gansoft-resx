@@ -8,6 +8,10 @@
       "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Date)))"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Projected weight to date",
     "es": "Peso proyectado a la fecha",

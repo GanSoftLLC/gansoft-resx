@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastDeliveryWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Weight at last calving",
     "es": "Peso al último parto",
