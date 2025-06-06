@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Fecha)))"
+      "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Date)))"
     }
   },
   "description": {

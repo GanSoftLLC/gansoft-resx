@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMASUM.BetweenDeliveriesAverage]"
+      "default": "AMASUM.BetweenDeliveriesAverage"
     }
   },
   "description": {
