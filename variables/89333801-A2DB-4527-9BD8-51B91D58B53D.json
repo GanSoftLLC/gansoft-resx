@@ -5,7 +5,7 @@
   "type": "short",
   "query": {
     "select": {
-      "default": "(case when AFTH.Category > 7 then AFTH.Category else NULL end)"
+      "default": "(CASE WHEN AFTH.Category = 8 THEN 1 WHEN AFTH.Category = 9 THEN 2 WHEN AFTH.Category = 10 THEN 3 ELSE 0 END)"
     }
   },
   "description": {
