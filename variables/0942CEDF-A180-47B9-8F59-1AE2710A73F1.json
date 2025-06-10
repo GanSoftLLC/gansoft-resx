@@ -8,6 +8,10 @@
       "default": "A.ProductiveStatus"
     }
   },
+  "format": {
+    "name": "ProductiveStatusTypeFormatter",
+    "params": null
+  },  
   "description": {
     "en": "Current productive status of the animal",
     "es": "Estatus productivo actual del animal",

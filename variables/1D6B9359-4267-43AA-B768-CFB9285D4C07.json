@@ -8,6 +8,10 @@
       "default": "AMISUM.WeaningWeightsAverage"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Average weaned weight per lactation",
     "es": "Promedio peso destetados por lactancia",

@@ -8,6 +8,10 @@
       "default": "AGRSUM.On205DaysWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Adjusted weight at 205 days of the animal",
     "es": "Peso ajustado 205 días del animal",

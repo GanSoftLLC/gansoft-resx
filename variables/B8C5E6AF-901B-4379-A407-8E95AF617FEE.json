@@ -14,6 +14,10 @@
       "default": "((AMASUM.LastDeliveryFemalesAliveWeights))"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Weight of live-born females from the last birth",
     "es": "Peso hembras nacidas vivas del último parto",

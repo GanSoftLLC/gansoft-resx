@@ -8,6 +8,10 @@
       "default": "AGRSUM.On365DaysWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Adjusted weight at 365 days of the animal",
     "es": "Peso ajustado 365 días del animal",

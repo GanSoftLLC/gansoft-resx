@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMASUM.DeliveryToPregnancyAverage]"
+      "default": "AMASUM.DeliveryToPregnancyAverage"
     }
   },
   "description": {

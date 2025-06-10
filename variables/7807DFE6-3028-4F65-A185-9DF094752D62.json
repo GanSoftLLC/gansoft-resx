@@ -8,6 +8,10 @@
       "default": "AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Daily weight gain between penultimate and last weight",
     "es": "Ganancia diaria de peso entre penúltimo y último peso",

@@ -8,6 +8,10 @@
       "default": "AGRSUM.ServiceWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "weight" ]
+  },  
   "description": {
     "en": "Weight entered into service",
     "es": "Peso entrada a servicio",

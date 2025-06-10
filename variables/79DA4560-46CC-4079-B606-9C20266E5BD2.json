@@ -8,6 +8,10 @@
       "default": "A.ReproductiveStatus"
     }
   },
+  "format": {
+    "name": "ReproductiveStatusTypeFormatter",
+    "params": null
+  },  
   "description": {
     "en": "Reproductive Status ( Pregnant / Empty / Waiting)",
     "es": "Estado actual reproductivo (Preñada/Vacía/Espera)",
