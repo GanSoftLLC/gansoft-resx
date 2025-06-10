@@ -8,6 +8,10 @@
       "default": "AMASUM.ServicesByPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average services per conception",
     "es": "Promedio servicios por concepción",

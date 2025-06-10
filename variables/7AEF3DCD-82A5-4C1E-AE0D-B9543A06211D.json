@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "weight" ]
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Adjusted weight at 365 days of the animal",

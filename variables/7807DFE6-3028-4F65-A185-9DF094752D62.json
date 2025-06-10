@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "weight" ]
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Daily weight gain between penultimate and last weight",

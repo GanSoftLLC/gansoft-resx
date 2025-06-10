@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "weight" ]
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Animal's entry weight",

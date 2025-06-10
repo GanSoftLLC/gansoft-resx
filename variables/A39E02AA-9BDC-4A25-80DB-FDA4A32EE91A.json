@@ -9,8 +9,8 @@
     }
   },
   "format": {
-    "name": "NumberFormatter",
-    "params": [ 3 ]
+    "name": "MksFormatter",
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Average gain between births (historical)",

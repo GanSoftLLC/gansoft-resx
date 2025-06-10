@@ -8,6 +8,10 @@
       "default": "AMISUM.On244DaysProductionAverage"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  }, 
   "description": {
     "en": "Average production at 244 days per lactation (historical)",
     "es": "Promedio producción a 244 días por lactancia (histórico)",

@@ -8,6 +8,10 @@
       "default": "AMASUM.InseminationsByPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average inseminations per conception",
     "es": "Promedio inseminaciones por concepción",

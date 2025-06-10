@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "weight" ]
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Adjusted weight at 24 months of the animal",

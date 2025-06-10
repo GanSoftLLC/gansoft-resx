@@ -14,6 +14,10 @@
       "default": "(DATEDIFF(DAY,A.BirthDate,@Date)/30.40)"
     }
   },
+  "format": {
+    "name": "NumerFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Animal Age (Months)",
     "es": "Edad del animal (meses)",

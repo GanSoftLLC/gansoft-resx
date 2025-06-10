@@ -8,6 +8,10 @@
       "default": "AMASUM.DeliveryToFirstServiceAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average calving first service (days)",
     "es": "Promedio parto primer servicio (días)",

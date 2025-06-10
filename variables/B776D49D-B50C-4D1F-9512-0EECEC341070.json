@@ -15,8 +15,8 @@
     }
   },
   "format": {
-    "name": "NumberFormatter",
-    "params": [ 3 ]
+    "name": "MksFormatter",
+    "params": [ 2 ]
   },  
   "description": {
     "en": "Average daily last lactation",

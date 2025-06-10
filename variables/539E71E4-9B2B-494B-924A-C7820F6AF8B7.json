@@ -8,6 +8,10 @@
       "default": "DATEDIFF(DAY,A.BirthDate,@Date)"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 0 ]
+  }, 
   "description": {
     "en": "Animal age (days)",
     "es": "Edad del animal (días)",

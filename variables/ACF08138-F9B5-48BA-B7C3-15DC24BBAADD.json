@@ -8,6 +8,10 @@
       "default": "AMASUM.BetweenChecksAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average days between check-ups",
     "es": "Promedio días entre revisiones",

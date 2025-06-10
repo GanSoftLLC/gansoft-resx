@@ -14,6 +14,10 @@
         "default": "(AMISUM.NextToLastMilkWeightValue)"
       }
     },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  }, 
   "description": {
     "en": "Next to Last milk weighing",
     "es": "Penúltimo pesaje de leche",

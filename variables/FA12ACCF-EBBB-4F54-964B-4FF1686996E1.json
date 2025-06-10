@@ -8,6 +8,10 @@
       "default": "AMASUM.GestationDaysAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average days of gestation",
     "es": "Promedio días gestación",
