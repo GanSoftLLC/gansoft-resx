@@ -8,6 +8,10 @@
       "default": "AMISUM.BetweenProductionAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 3 ]
+  },  
   "description": {
     "en": "Average production between lactations (historical)",
     "es": "Promedio producción entre lactancias (histórico)",
