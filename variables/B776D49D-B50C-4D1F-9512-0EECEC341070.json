@@ -16,7 +16,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ 2 ]
+    "params": [ "mass", 2 ]
   },  
   "description": {
     "en": "Average daily last lactation",
