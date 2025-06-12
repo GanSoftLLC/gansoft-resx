@@ -8,6 +8,10 @@
       "default": "AMISUM.ProductionDaysAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average days in production per lactation (historical)",
     "es": "Promedio Días en produccion por lactancia (histórico)",

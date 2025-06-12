@@ -8,6 +8,10 @@
       "default": "A.AgeAtFirstBirth"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Age at First Calving (months)",
     "es": "Edad al primer parto (meses)",

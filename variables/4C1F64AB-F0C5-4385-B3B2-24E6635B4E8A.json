@@ -8,6 +8,10 @@
       "default": "AMISUM.WeaningAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  },  
   "description": {
     "en": "Average number weaned per lactation",
     "es": "Promedio destetados por lactancia",

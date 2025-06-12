@@ -8,6 +8,10 @@
       "default": "AMASUM.DeliveryToFirstHeatAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average first heat birth (days)",
     "es": "Promedio parto primer celo (días)",

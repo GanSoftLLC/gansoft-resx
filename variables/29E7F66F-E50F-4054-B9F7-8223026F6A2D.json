@@ -8,6 +8,10 @@
       "default": "AMISUM.DryOffDaysAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  },  
   "description": {
     "en": "Average dry days per lactation (historical)",
     "es": "Promedio días seca por lactancia (histórico)",

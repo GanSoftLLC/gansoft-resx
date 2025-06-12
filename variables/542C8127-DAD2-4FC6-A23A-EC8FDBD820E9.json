@@ -16,7 +16,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "weight" ]
+    "params": [ "mass" ]
   },  
   "description": {
     "en": "Weight of males born from the last birth",

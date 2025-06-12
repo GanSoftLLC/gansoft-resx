@@ -8,6 +8,10 @@
       "default": "AMASUM.BetweenHeatsAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average days between heats",
     "es": "Promedio días entre celos",

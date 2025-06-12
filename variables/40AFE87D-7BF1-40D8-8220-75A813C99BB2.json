@@ -14,6 +14,10 @@
       "default": "(AMISUM.LastMilkingOn305DaysProduction)"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  }, 
   "description": {
     "en": "Current 305-Day Production",
     "es": "Producción 305 Días actual",

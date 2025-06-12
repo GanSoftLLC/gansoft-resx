@@ -8,6 +8,10 @@
       "default": "AFM.UniqueCode"
     }
   },
+  "format": {
+    "name": "PadLeftFormatter",
+    "params": [ 12 ]
+  }, 
   "description": {
     "en": "Unique Code for Adoptive Mothers",
     "es": "Código Único de la Madre adoptiva",

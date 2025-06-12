@@ -8,6 +8,10 @@
       "default": "AMISUM.ProductionTotalAverage"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  }, 
   "description": {
     "en": "Average total production per lactation (historical)",
     "es": "Promedio producción total por lactancia (histórico)",

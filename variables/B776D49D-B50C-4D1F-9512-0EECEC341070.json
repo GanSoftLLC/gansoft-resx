@@ -14,6 +14,10 @@
       "default": "((AMISUM.LastMilkingProductionTotal/ NULLIF(AMISUM.LastMilkingProductionDays,0)))"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass", 2 ]
+  },  
   "description": {
     "en": "Average daily last lactation",
     "es": "Promedio diario última lactancia",

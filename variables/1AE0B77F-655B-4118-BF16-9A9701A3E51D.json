@@ -8,6 +8,10 @@
       "default": "AREC.UniqueCode"
     }
   },
+  "format": {
+    "name": "PadLeftFormatter",
+    "params": [ 12 ]
+  }, 
   "description": {
     "en": "Unique Receiver Code",
     "es": "Código Único de la Receptora",

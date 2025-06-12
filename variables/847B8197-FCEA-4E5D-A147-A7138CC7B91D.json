@@ -8,6 +8,10 @@
       "default": "AMASUM.BetweenDeliveriesAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average delivery to delivery (days)",
     "es": "Promedio parto-parto (días)",

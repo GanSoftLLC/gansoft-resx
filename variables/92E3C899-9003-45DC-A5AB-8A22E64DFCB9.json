@@ -8,6 +8,10 @@
       "default": "AMASUM.ChecksByDeliveryAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average check-ups per delivery",
     "es": "Promedio revisiones por parto",
