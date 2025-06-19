@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastBodyConditionType"
     }
   },
+    "format": {
+    "name": "CorporalConditionFormatter",
+    "params": null
+  },
   "description": {
     "en": "Type of last body condition",
     "es": "Tipo de la última condición corporal",

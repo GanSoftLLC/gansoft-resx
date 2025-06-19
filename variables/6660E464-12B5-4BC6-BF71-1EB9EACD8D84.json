@@ -8,6 +8,10 @@
       "default": "A.FrequentlyUsed"
     }
   },
+    "format": {
+    "name": "BooleanFormatter",
+    "params": [ "Sí", "No" ]
+  },
   "description": {
     "en": "Frequent use ( Yes or No )",
     "es": "Uso frecuente (Si ó No)",
