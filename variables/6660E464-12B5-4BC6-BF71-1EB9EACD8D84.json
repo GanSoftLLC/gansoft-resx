@@ -10,7 +10,7 @@
   },
     "format": {
     "name": "BooleanFormatter",
-    "params": [ "Sí", "No" ]
+    "params": null
   },
   "description": {
     "en": "Frequent use ( Yes or No )",
