@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastDryOffWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Weight at last drying",
     "es": "Peso al último secado",

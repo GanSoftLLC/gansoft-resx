@@ -8,6 +8,10 @@
       "default": "AMASUM.MatingsByPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average mounts per conception",
     "es": "Promedio montas por concepción",

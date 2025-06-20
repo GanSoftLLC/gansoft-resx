@@ -5,9 +5,13 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMASUM.FirstServiceToPregnancyAverage]"
+      "default": "AMASUM.FirstServiceToPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 1 ]
+  }, 
   "description": {
     "en": "Average first service conception (days)",
     "es": "Promedio primer servicio concepción (días)",

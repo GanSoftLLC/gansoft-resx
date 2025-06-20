@@ -8,6 +8,10 @@
       "default": "AGRSUM.WeaningWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Weaning weight of the animal",
     "es": "Peso de destete del animal",

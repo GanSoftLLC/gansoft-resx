@@ -8,6 +8,10 @@
       "default": "AMISUM.BetweenDeliveriesProductionAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 3 ]
+  },  
   "description": {
     "en": "Average production between births (historical)",
     "es": "Promedio producción entre partos (histórico)",

@@ -5,9 +5,13 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Fecha)))"
+      "default": "(AGRSUM.LastWeight + (AGRSUM.BetweenLastAndNextToLastWeightPartialWeightGain * DATEDIFF(day, AGRSUM.LastWeightDate, @Date)))"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Projected weight to date",
     "es": "Peso proyectado a la fecha",

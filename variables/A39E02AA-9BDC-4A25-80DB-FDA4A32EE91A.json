@@ -8,6 +8,10 @@
       "default": "AMISUM.BetweenDeliveriesWeightGainAverage"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Average gain between births (historical)",
     "es": "Promedio ganancia entre partos (histórico)",

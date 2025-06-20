@@ -8,6 +8,10 @@
       "default": "(AMISUM.ProductionTotalAverage/NULLIF(AMISUM.ProductionDaysAverage,0)*1.000000)"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Average daily milk (historical)",
     "es": "Promedio diario de leche (histórico)",

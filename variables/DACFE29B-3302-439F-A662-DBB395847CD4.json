@@ -8,6 +8,10 @@
       "default": "AMASUM.EmbryoTransfersByPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average embryo transfer per conception",
     "es": "Promedio transplantes por concepción",

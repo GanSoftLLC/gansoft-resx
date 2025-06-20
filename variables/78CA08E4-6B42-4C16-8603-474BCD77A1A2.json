@@ -5,9 +5,13 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMASUM.DeliveryToPregnancyAverage]"
+      "default": "AMASUM.DeliveryToPregnancyAverage"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
   "description": {
     "en": "Average birth-conception (days)",
     "es": "Promedio parto-concepción (días)",

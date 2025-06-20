@@ -8,6 +8,10 @@
       "default": "AGRSUM.BetweenFirstAndLastWeightGlobalWeightGain"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Daily weight gain between first and last weight",
     "es": "Ganancia diaria de peso entre primer y último peso",

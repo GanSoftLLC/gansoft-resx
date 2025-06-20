@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastWeight"
     }
   },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
   "description": {
     "en": "Last weight of the animal",
     "es": "Último peso del animal",

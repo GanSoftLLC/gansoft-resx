@@ -8,6 +8,10 @@
       "default": "A.DeleteReason"
     }
   },
+  "format": {
+    "name": "OutputCauseTypeFormatter",
+    "params": null
+  },  
   "description": {
     "en": "Cause of Removal (Death/Sell/ Sacred .....)",
     "es": "Causa de eliminación (Muerte/Venta/Sacri.....)",
