@@ -9,7 +9,7 @@
     }
   },
     "format": {
-    "name": "CorporalConditionFormatter",
+    "name": "WeighingTypeFormatter",
     "params": null
   },
   "description": {

@@ -8,6 +8,10 @@
       "default": "AGRSUM.LastBodyCondition"
     }
   },
+    "format": {
+    "name": "CorporalConditionFormatter",
+    "params": null
+  },
   "description": {
     "en": "Last body condition of the animal",
     "es": "Última condición corporal del animal",
