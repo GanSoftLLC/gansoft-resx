@@ -5,7 +5,7 @@
   "type": "short",
   "query": {
     "select": {
-      "default": "A.FrequentlyUsed"
+      "default": "CASE WHEN A.Category = 9 THEN CAST(A.FrequentlyUsed AS VARCHAR(1)) WHEN A.Category = 10 THEN CAST(A.FrequentlyUsed AS VARCHAR(1)) ELSE '' END"
     }
   },
     "format": {
