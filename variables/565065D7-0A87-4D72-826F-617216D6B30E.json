@@ -3,6 +3,7 @@
   "id": "565065d7-0a87-4d72-826f-617216d6b30e",
   "group": 6,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "ASUM.LastLocationCode"

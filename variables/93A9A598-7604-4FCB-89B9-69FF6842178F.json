@@ -3,6 +3,7 @@
   "id": "93A9A598-7604-4FCB-89B9-69FF6842178F",
   "group": 2,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "AHESUM.LastDiagnosticCode"

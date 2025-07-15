@@ -3,6 +3,7 @@
   "id": "111C1E0A-A60E-4041-9453-4DA59AADE28C",
   "group": 6,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "ASUM.NextToLastLocationCode"
