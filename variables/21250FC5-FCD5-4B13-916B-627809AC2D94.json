@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "A.AgeAtFirstBirth"
+      "default": "AMASUM.FirstDeliveryAge"
     }
   },
   "format": {
