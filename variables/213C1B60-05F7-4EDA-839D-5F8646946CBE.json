@@ -3,6 +3,7 @@
   "id": "213C1B60-05F7-4EDA-839D-5F8646946CBE",
   "group": 2,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "AHESUM.LastTreatmentCode"
