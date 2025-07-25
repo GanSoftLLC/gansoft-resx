@@ -5,12 +5,12 @@
   "type": "int",
   "query": {
     "select": {
-      "default": "AMASUM.CurrentPregnancyEmptyDays"
+      "default": "AMASUM.CurrentDeliveryPregnancyDays"
     }
   },
   "description": {
-    "en": "Current empty days",
-    "es": "Días vacía actual",
-    "pt": "Dias vazios atuais"
+    "en": "Current delivery pregnancy days",
+    "es": "Intervalo parto-concepción actual",
+    "pt": "Intervalo atual entre entrega e concepção"
   }
 }

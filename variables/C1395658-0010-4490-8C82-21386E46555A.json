@@ -1,11 +1,11 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "15dc06ae-c740-42fb-b00b-267957ecd05c",
+  "id": "C1395658-0010-4490-8C82-21386E46555A",
   "group": 10,
   "type": "datetime",
   "query": {
     "select": {
-      "default": "AMASUM.NextBirth"
+      "default": "AMASUM.LastReproductiveEventDate"
     }
   },
   "format": {
@@ -13,8 +13,8 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Next Delivery Date",
-    "es": "Fecha del próximo parto",
-    "pt": "Data de Entrega Seguinte"
+    "en": "Last reproductive event date",
+    "es": "Fecha del último evento reproductivo",
+    "pt": "Data da último evento reprodutivo"
   }
 }

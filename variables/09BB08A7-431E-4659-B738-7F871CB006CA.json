@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "09BB08A7-431E-4659-B738-7F871CB006CA",
+  "group": 10,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastDeliveryOrAbortionType"
+    }
+  },
+    "format": {
+    "name": "WeighingTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Type of last delivery or abortion",
+    "es": "Tipo del últmo parto o aborto",
+    "pt": "Tipo de última entrega o aborto"
+  }
+}
