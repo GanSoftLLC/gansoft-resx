@@ -1,0 +1,17 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0120F209-D1BB-4D15-B11B-310E8756E7B8",
+  "group": 10,
+  "type": "string",
+  "isList": true,
+  "query": {
+    "select": {
+      "default": "AMASUM.LastCheckTreatment"
+    }
+  },
+  "description": {
+    "en": "Reproductive treatment last check",
+    "es": "Tratamiento reproductivo última revisión",
+    "pt": "Última revisão do tratamento reprodutivo"
+  }
+}
