@@ -10,7 +10,7 @@
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "mass", 2 ]
+    "params": [ "mass" ]
   }, 
   "description": {
     "en": "Average production at 305 days per lactation (historical)",

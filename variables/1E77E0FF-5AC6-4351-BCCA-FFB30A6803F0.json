@@ -5,7 +5,7 @@
   "type": "int",
   "query": {
     "select": {
-      "default": "(DATEDIFF(DAY,@Date,AMASUM.NextBirth))"
+      "default": "(DATEDIFF(DAY,@Date,A.NextBirth))"
     }
   },
   "description": {
