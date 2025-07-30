@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BF7EDEE1-5FDF-4456-9D9A-F5ECE9DD3DD1",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,AMASUM.NextBirth,AMASUM.LastDeliveryDate))"
+    }
+  },
+  "description": {
+    "en": "Last-next birth interval (days)",
+    "es": "Intervalo último-próximo parto (días)",
+    "pt": "Intervalo último-próximo nascimento (dias)"
+  }
+}

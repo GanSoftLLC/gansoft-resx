@@ -5,18 +5,12 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "CAST(AMISUM.LastMilkWeightValue as decimal(9,2)) "
-    },
-    "where": {
-      "default": "(AMISUM.LastMilkWeightValueL)"
-    },
-    "order": {
-      "default": "(AMISUM.LastMilkWeightValue)"
+      "default": "AMISUM.LastMilkWeightValue"
     }
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "mass" ]
+    "params": [ "mass", 2 ]
   }, 
   "description": {
     "en": "Last milk weighing",
