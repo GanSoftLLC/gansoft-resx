@@ -3,6 +3,7 @@
   "id": "0F44E451-3401-4D31-9579-433CA6986F85",
   "group": 1,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "CO.Code"

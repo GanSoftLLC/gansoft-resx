@@ -3,6 +3,7 @@
   "id": "BCFBD64E-1192-4D73-825F-F378ACE57D71",
   "group": 1,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "OW.Code"

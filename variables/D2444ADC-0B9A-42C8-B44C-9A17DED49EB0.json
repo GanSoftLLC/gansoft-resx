@@ -3,6 +3,7 @@
   "id": "D2444ADC-0B9A-42C8-B44C-9A17DED49EB0",
   "group": 1,
   "type": "string",
+  "isList": true,
   "query": {
     "select": {
       "default": "CL.Code"
