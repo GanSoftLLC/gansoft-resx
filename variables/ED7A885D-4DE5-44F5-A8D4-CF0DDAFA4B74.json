@@ -13,7 +13,7 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Next Dry Date",
+    "en": "Next dry date",
     "es": "Fecha del próximo secado",
     "pt": "Data da próxima secagem"
   }

@@ -13,8 +13,8 @@
     "params": [ "mass", 2 ]
   }, 
   "description": {
-    "en": "Current 270-Day Production",
-    "es": "Producción 270 Días actual",
+    "en": "Current 270-day production",
+    "es": "Producción 270 días actual",
     "pt": "Produção atual de 270 dias"
   }
 }

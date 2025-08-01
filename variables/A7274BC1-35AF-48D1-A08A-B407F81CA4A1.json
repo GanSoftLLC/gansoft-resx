@@ -13,8 +13,8 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Animal Creation Date",
-    "es": "Fecha de Creacion del animal",
+    "en": "Animal creation Date",
+    "es": "Fecha de creacion del animal",
     "pt": "Data de criação do animal"
   }
 }
