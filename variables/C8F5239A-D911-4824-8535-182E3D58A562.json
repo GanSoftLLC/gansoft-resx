@@ -13,7 +13,7 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Animal Last Update Date",
+    "en": "Animal last update date",
     "es": "Fecha de la última actualización del animal",
     "pt": "Data da última atualização do animal"
   }

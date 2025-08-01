@@ -13,7 +13,7 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Animal Removal Date",
+    "en": "Animal removal date",
     "es": "Fecha de eliminación del animal",
     "pt": "Animal data de saída"
   }

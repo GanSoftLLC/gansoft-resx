@@ -13,8 +13,8 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Animal Next to Last location date",
-    "es": "Fecha Penúltima locación del animal",
-    "pt": "Data da Penúltima localização do animal"
+    "en": "Animal next to last location date",
+    "es": "Fecha penúltima locación del animal",
+    "pt": "Data da penúltima localização do animal"
   }
 }
