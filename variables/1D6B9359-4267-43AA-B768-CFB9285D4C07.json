@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMISUM.WeaningWeightsAverage"
+      "default": "AMISUM.WeaningWeightsByMilkingAverage"
     }
   },
   "format": {
