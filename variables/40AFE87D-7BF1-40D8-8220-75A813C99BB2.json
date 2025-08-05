@@ -5,12 +5,18 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMISUM.LastMilkingOn305DaysProduction"
+      "default": "CAST(AMISUM.LastMilkingOn305DaysProduction as decimal(9,1)) "
+    },
+    "where": {
+      "default": "(AMISUM.LastMilkingOn305DaysProduction)"
+    },
+    "order": {
+      "default": "(AMISUM.LastMilkingOn305DaysProduction)"
     }
   },
   "format": {
     "name": "MksFormatter",
-    "params": [ "mass", 2 ]
+    "params": [ "mass" ]
   }, 
   "description": {
     "en": "Current 305-day production",

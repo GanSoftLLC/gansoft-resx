@@ -5,12 +5,18 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AMISUM.LastMilkingProductionTotal"
+      "default": "CAST(AMISUM.LastMilkingProductionTotal as decimal(9,1))"
+    },
+    "where": {
+      "default": "(AMISUM.LastMilkingProductionTota)"
+    },
+    "order": {
+      "default": "(AMISUM.LastMilkingProductionTotal)"
     }
   },
   "format": {
-    "name": "MksFormatter",
-    "params": [ "mass", 2 ]
+    "name": "NumberFormatter",
+    "params": [ 2 ]
   }, 
   "description": {
     "en": "Current total production",

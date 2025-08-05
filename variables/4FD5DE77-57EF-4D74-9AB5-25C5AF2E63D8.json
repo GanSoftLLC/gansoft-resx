@@ -9,8 +9,8 @@
     }
   },
   "format": {
-    "name": "MksFormatter",
-    "params": [ "mass", 2 ]
+    "name": "NumberFormatter",
+    "params": [ 3 ]
   },  
   "description": {
     "en": "Average production between lactations (historical)",

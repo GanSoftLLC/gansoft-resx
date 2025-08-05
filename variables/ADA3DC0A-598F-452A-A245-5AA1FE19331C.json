@@ -5,7 +5,7 @@
   "type": "int",
   "query": {
     "select": {
-      "default": "(DATEDIFF(DAY,@Date,AMASUM.NextCheck))"
+      "default": "(DATEDIFF(DAY,@Date,A.NextCheck))"
     }
   },
   "description": {
