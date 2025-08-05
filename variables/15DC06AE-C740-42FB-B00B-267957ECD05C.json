@@ -13,8 +13,8 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Next Delivery Date",
+    "en": "Next delivery Date",
     "es": "Fecha del próximo parto",
-    "pt": "Data de Entrega Seguinte"
+    "pt": "Data de entrega seguinte"
   }
 }

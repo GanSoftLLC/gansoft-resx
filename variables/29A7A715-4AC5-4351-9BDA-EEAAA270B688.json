@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "29A7A715-4AC5-4351-9BDA-EEAAA270B688",
+  "group": 3,
+  "type": "short",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastReproductiveEventType"
+    }
+  },
+    "format": {
+    "name": "WeighingTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Type of last reproductive event",
+    "es": "Tipo del último evento reproductivo",
+    "pt": "Tipo de último evento reprodutivo"
+  }
+}
