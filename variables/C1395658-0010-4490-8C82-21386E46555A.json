@@ -1,11 +1,11 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "88379434-02a9-4e1b-8e79-09f792a81d56",
+  "id": "C1395658-0010-4490-8C82-21386E46555A",
   "group": 10,
   "type": "datetime",
   "query": {
     "select": {
-      "default": "AMASUM.NextCheck"
+      "default": "AMASUM.LastReproductiveEventDate"
     }
   },
   "format": {
@@ -13,8 +13,8 @@
     "params": [ "shortdate" ]
   },  
   "description": {
-    "en": "Next Review Date",
-    "es": "Fecha de la próxima revisión",
-    "pt": "Data da próxima revisão"
+    "en": "Last reproductive event date",
+    "es": "Fecha del último evento reproductivo",
+    "pt": "Data da último evento reprodutivo"
   }
 }

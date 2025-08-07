@@ -5,7 +5,7 @@
   "type": "datetime",
   "query": {
     "select": {
-      "default": "A.NextBirth"
+      "default": "AMASUM.NextBirth"
     }
   },
   "format": {
