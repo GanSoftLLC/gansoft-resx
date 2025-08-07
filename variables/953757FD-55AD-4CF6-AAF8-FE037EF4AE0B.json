@@ -1,0 +1,21 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "953757FD-55AD-4CF6-AAF8-FE037EF4AE0B",
+  "group": 10,
+  "type": "string",
+  "isList": true,
+  "query": {
+    "select": {
+      "default": "AMASUM.LastCheckResult"
+    }
+  },
+  "format": {
+    "name": "ReproductiveStatusTypeFormatter",
+    "params": null
+  },  
+  "description": {
+    "en": "Last check result",
+    "es": "Resultado última revisión",
+    "pt": "Resultado da última revisão"
+  }
+}
