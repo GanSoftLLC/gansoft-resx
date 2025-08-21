@@ -8,6 +8,10 @@
       "default": "AMISUM.LastMilkingDryOffDays"
     }
   },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 0 ]
+  }, 
   "description": {
     "en": "Current dry days",
     "es": "Días seca actual",

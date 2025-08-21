@@ -5,7 +5,7 @@
   "type": "short",
   "query": {
     "select": {
-      "default": "AGRSUM.LastReproductiveEventType"
+      "default": "AMASUM.LastReproductiveEventType"
     }
   },
     "format": {
