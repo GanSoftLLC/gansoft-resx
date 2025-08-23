@@ -3,7 +3,14 @@
   "id": "0120F209-D1BB-4D15-B11B-310E8756E7B8",
   "group": 10,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 2 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 2 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlserver" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 2 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AMASUM.LastCheckTreatment"

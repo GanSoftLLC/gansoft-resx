@@ -3,6 +3,10 @@
   "id": "D77273EC-12E2-4E63-94D1-F6A6C27703D2",
   "group": 1,
   "type": "short",
+  "data": {
+    "type": "CategoryType",
+    "values": [1,2,3,4]
+  }, 
   "query": {
     "select": {
       "default": "A.Category"

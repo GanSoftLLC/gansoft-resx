@@ -3,7 +3,14 @@
   "id": "111C1E0A-A60E-4041-9453-4DA59AADE28C",
   "group": 6,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[Lots] WHERE FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[Lots] WHERE FarmId = @FarmId and IsDeleted = 0",
+      "sqlserver" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[Lots] WHERE FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "ASUM.NextToLastLocationCode"

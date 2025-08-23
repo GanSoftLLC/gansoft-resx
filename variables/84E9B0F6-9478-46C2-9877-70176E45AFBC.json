@@ -3,6 +3,14 @@
   "id": "84E9B0F6-9478-46C2-9877-70176E45AFBC",
   "group": 10,
   "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default].[Animals] A inner join [db_default].[Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0",
+      "sqlite" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default].[Animals] A inner join [db_default].[Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0",
+      "sqlserver" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default].[Animals] A inner join [db_default].[Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AMASUM.LastServiceSireUniqueCode"

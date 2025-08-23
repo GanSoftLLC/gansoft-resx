@@ -3,7 +3,14 @@
   "id": "213C1B60-05F7-4EDA-839D-5F8646946CBE",
   "group": 2,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 1 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 1 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlserver" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 4 and [SubType] = 1 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AHESUM.LastTreatmentCode"
