@@ -3,7 +3,14 @@
   "id": "BCFBD64E-1192-4D73-825F-F378ACE57D71",
   "group": 1,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 3 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 3 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlserver" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 3 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "OW.Code"

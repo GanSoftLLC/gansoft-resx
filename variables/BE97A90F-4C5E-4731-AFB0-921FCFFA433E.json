@@ -3,6 +3,14 @@
   "id": "BE97A90F-4C5E-4731-AFB0-921FCFFA433E",
   "group": 10,
   "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]",
+      "sqlite" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]",
+      "sqlserver" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AMASUM.LastServiceTechnicianCode"
