@@ -3,6 +3,9 @@
   "id": "4523C199-B509-4CAF-9669-EFA36D02FD53",
   "group": 1,
   "type": "short",
+  "data": {
+    "type": "GenderType"
+  },
   "query": {
     "select": {
       "default": "(CASE WHEN A.Category < 5 THEN 2 ELSE (CASE WHEN A.Category < 10 THEN 1 ELSE 0 END) END)"
