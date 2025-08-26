@@ -3,7 +3,13 @@
   "id": "565065d7-0a87-4d72-826f-617216d6b30e",
   "group": 6,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[Lots] WHERE FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default_Lots] WHERE FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "ASUM.LastLocationCode"

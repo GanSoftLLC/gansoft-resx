@@ -3,7 +3,13 @@
   "id": "14E92F77-C39E-466F-AD6B-52C447EC5240",
   "group": 10,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]",
+      "sqlite" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default_Technicians] T inner join [db_default_Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AMASUM.LastCheckTechnicianCode"

@@ -3,6 +3,9 @@
   "id": "6660e464-12b5-4bc6-bf71-1eb9eacd8d84",
   "group": 11,
   "type": "short",
+  "data": {
+    "type": "FrequentlyUseType"
+  },
   "query": {
     "select": {
       "default": "CASE WHEN A.Category = 9 THEN CAST(A.FrequentlyUsed AS VARCHAR(1)) WHEN A.Category = 10 THEN CAST(A.FrequentlyUsed AS VARCHAR(1)) ELSE '' END"

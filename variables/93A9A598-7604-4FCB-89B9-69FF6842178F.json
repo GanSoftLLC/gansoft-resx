@@ -3,7 +3,13 @@
   "id": "93A9A598-7604-4FCB-89B9-69FF6842178F",
   "group": 2,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 2 and [SubType] = 1 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default_DescriptionTags] WHERE [type] = 2 and [SubType] = 1 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "AHESUM.LastDiagnosticCode"

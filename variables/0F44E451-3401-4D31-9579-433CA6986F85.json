@@ -3,7 +3,13 @@
   "id": "0F44E451-3401-4D31-9579-433CA6986F85",
   "group": 1,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 1 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default_DescriptionTags] WHERE [type] = 1 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "CO.Code"
