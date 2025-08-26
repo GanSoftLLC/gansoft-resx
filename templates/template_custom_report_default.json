@@ -29,6 +29,9 @@
       "alias": "Estatus del animal (Activo/Inactivo/Referencia)",
       "node": 1,
       "type": "short",
+      "data": {
+        "type": "StatusType"
+      }, 
       "variableType": 2,
       "index": 3,
       "operator": 1,
