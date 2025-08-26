@@ -3,13 +3,16 @@
   "id": "29A7A715-4AC5-4351-9BDA-EEAAA270B688",
   "group": 3,
   "type": "short",
+  "data": {
+    "type": "ReproductiveEventType"
+  }, 
   "query": {
     "select": {
       "default": "AGRSUM.LastReproductiveEventType"
     }
   },
     "format": {
-    "name": "WeighingTypeFormatter",
+    "name": "ReproductiveEventTypeFormatter",
     "params": null
   },
   "description": {
