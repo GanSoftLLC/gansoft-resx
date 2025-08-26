@@ -3,6 +3,9 @@
   "id": "0942cedf-a180-47b9-8f59-1ae2710a73f1",
   "group": 9,
   "type": "short",
+  "data": {
+    "type": "ProductiveStatusType"
+  },
   "query": {
     "select": {
       "default": "A.ProductiveStatus"
