@@ -3,6 +3,9 @@
   "id": "F1FB8E29-9409-4B52-8629-9882A0092BD4",
   "group": 3,
   "type": "short",
+  "data": {
+    "type": "WeighingConditionType"
+  }, 
   "query": {
     "select": {
       "default": "AGRSUM.LastBodyCondition"
