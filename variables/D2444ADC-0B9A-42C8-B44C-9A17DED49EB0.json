@@ -3,7 +3,13 @@
   "id": "D2444ADC-0B9A-42C8-B44C-9A17DED49EB0",
   "group": 1,
   "type": "string",
-  "isList": true,
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default].[DescriptionTags] WHERE [type] = 5 and FarmId = @FarmId and IsDeleted = 0",
+      "sqlite" : "SELECT [Id] as [Value], [Code] as [Text] FROM [db_default_DescriptionTags] WHERE [type] = 5 and FarmId = @FarmId and IsDeleted = 0"
+    }
+  }, 
   "query": {
     "select": {
       "default": "CL.Code"

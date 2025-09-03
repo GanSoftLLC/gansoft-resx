@@ -3,6 +3,9 @@
   "id": "89333801-A2DB-4527-9BD8-51B91D58B53D",
   "group": 1,
   "type": "short",
+  "data": {
+    "type": "ServiceType"
+  },
   "query": {
     "select": {
       "default": "(CASE WHEN AFTH.Category = 8 THEN 1 WHEN AFTH.Category = 9 THEN 2 WHEN AFTH.Category = 10 THEN 3 ELSE 0 END)"
