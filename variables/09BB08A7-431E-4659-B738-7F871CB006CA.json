@@ -9,7 +9,7 @@
     }
   },
     "format": {
-    "name": "WeighingTypeFormatter",
+    "name": "DeliveryOrAbortionTypeFormatter",
     "params": null
   },
   "description": {
