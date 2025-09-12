@@ -1,7 +1,7 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
   "id": "5B4A4C50-3A8F-40DE-B935-E1BFA44464B0",
-  "group": 10,
+  "group": 9,
   "type": "int",
   "query": {
     "select": {
