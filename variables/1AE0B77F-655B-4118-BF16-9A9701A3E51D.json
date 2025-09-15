@@ -13,8 +13,8 @@
     "params": [ 12 ]
   }, 
   "description": {
-    "en": "Unique Receiver Code",
-    "es": "Código Único de la Receptora",
-    "pt": "Código Único do Receptor"
+    "en": "Unique receiver code",
+    "es": "Código único de la receptora",
+    "pt": "Código único do receptor"
   }
 }
