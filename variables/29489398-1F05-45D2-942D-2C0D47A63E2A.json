@@ -1,0 +1,36 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "29489398-1F05-45D2-942D-2C0D47A63E2A",
+  "group": 1,
+  "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT [Id] as [Value], [Value] as [Text] FROM [db_default].[Tags] WHERE FarmId = @FarmId and IsDeleted = 0 ORDER BY 2",
+      "sqlite" : "SELECT [Id] as [Value], [Value] as [Text] FROM [db_default_Tags] WHERE FarmId = @FarmId and IsDeleted = 0 ORDER BY 2"
+    }
+  },  
+  "query": {
+    "select": {
+      "default" : "(SELECT STRING_AGG(VALUE+';'+COLOR, '|') FROM db_default.AnimalsTags ATAG_1 INNER JOIN db_default.Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)",
+      "sqlite" : "(SELECT GROUP_CONCAT(VALUE+';'+COLOR, '|') FROM db_default_AnimalsTags ATAG_1 INNER JOIN db_default_Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)"
+    },
+    "where": {
+      "default" : "(SELECT TOP 1 1 FROM db_default.AnimalsTags ATAG_1 INNER JOIN db_default.Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)",
+      "sqlite" : "(SELECT TOP 1 1 FROM db_default_AnimalsTags ATAG_1 INNER JOIN db_default_Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)"
+    },
+    "order": {
+      "default" : "(SELECT STRING_AGG(VALUE+';'+COLOR, '|') FROM db_default.AnimalsTags ATAG_1 INNER JOIN db_default.Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)",
+      "sqlite" : "(SELECT GROUP_CONCAT(VALUE+';'+COLOR, '|') FROM db_default_AnimalsTags ATAG_1 INNER JOIN db_default_Tags TAG_1 ON ATAG.TagId = TAG.Id WHERE ATAG.AnimalId = A_1.Id AND ATAG.IsDeleted = 0)"
+    }
+  },
+  "format": {
+    "name": "AnimalTagFormatter",
+    "params": null
+  },  
+  "description": {
+    "en": "Animal tags",
+    "es": "Etiquetas del animal",
+    "pt": "Etiquetas do animal"
+  }
+}
