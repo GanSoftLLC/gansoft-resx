@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8EF10FE0-8321-4B8D-9C78-1C3FEF2DB698",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.BetweenDeliveriesFrom3To4"
+    }
+  },
+  "description": {
+    "en": "Interval between 3rd. and 4th. delivery (days)",
+    "es": "Intervalo entre 3er. y 4to. parto (días)",
+    "pt": "Intervalo entre 3º. e 4º. entrega (dias)"
+  }
+}

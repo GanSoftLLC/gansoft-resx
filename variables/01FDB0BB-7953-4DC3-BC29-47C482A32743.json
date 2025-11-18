@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "01FDB0BB-7953-4DC3-BC29-47C482A32743",
+  "group": 10,
+  "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]",
+      "sqlite" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default_Technicians] T inner join [db_default_Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]"
+    }
+  }, 
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastServiceTechnicianCode"
+    }
+  },
+  "description": {
+    "en": "Unique code of the technician from the next to last service",
+    "es": "Código único del técnico del penúltimo servicio",
+    "pt": "Código único do técnico do penúltimo serviço"
+  }
+}

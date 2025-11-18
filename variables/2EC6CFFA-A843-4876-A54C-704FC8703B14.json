@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "2EC6CFFA-A843-4876-A54C-704FC8703B14",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalFemalesBorn"
+    }
+  },
+  "description": {
+    "en": "Total females born (historical)",
+    "es": "Total hembras nacidas (histórico)",
+    "pt": "Total de fêmeas nascidas (histórico)"
+  }
+}

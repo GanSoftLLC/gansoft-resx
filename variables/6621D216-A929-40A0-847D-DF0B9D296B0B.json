@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6621D216-A929-40A0-847D-DF0B9D296B0B",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalMalesAlive"
+    }
+  },
+  "description": {
+    "en": "Total males born alive (historical)",
+    "es": "Total machos nacidos vivos (histórico)",
+    "pt": "Total de homens nascidos vivos (histórico)"
+  }
+}

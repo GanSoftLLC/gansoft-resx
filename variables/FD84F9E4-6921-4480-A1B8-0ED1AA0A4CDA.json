@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FD84F9E4-6921-4480-A1B8-0ED1AA0A4CDA",
+  "group": 10,
+  "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default].[Technicians] T inner join [db_default].[Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]",
+      "sqlite" : "SELECT T.[Id] as [Value], T.[Code] as [Text] FROM [db_default_Technicians] T inner join [db_default_Farms] F on F.SubscriptionId = T.SubscriptionId WHERE F.Id = @FarmId and T.IsDeleted = 0 GROUP BY T.[Id], T.[Code]"
+    }
+  }, 
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionSireUniqueCode"
+    }
+  },
+  "description": {
+    "en": "Last embryo production sire unique code",
+    "es": "Código técnico última producción de embriones",
+    "pt": "Código reprodutivo da última produção de embriões"
+  }
+}
