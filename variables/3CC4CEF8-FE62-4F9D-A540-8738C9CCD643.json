@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3CC4CEF8-FE62-4F9D-A540-8738C9CCD643",
+  "group": 10,
+  "type": "EmbryoMethodType",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionMethodUsed"
+    }
+  },
+  "format": {
+    "name": "EmbryoMethodTypeFormatter",
+    "params": null
+  },  
+    "description": {
+    "en": "Last embryo production method used",
+    "es": "Método usado última producción de embriones",
+    "pt": "Método utilizado na última produção de embriões"
+  }
+}

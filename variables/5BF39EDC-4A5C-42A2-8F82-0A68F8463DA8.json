@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5BF39EDC-4A5C-42A2-8F82-0A68F8463DA8",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalMalesAlive"
+    }
+  },
+  "description": {
+    "en": "Total females born alive (historical)",
+    "es": "Total hembras nacidas vivas (histórico)",
+    "pt": "Total de mulheres nascidas vivas (histórico)"
+  }
+}

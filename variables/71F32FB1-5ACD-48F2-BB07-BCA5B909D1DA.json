@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "71F32FB1-5ACD-48F2-BB07-BCA5B909D1DA",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionFertilisationDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Last embryo production fertilisation date",
+    "es": "Fecha de fertilización última producción de embriones",
+    "pt": "Data de fertilização última produção de embriões"
+  }
+}

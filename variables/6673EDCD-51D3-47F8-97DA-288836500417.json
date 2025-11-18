@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "6673EDCD-51D3-47F8-97DA-288836500417",
+  "group": 10,
+  "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default].[Animals] A inner join [db_default].[Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0",
+      "sqlite" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default_Animals] A inner join [db_default_Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0"
+    }
+  }, 
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionSireUniqueCode"
+    }
+  },
+  "description": {
+    "en": "Last embryo production sire unique code",
+    "es": "Código reproductor última producción de embriones",
+    "pt": "Código reprodutivo da última produção de embriões"
+  }
+}

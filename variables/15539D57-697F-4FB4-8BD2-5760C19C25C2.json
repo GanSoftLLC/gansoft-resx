@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "15539D57-697F-4FB4-8BD2-5760C19C25C2",
+  "group": 3,
+  "type": "short",
+  "data": {
+    "type": "WeighingType"
+  }, 
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastWeightType"
+    }
+  },
+    "format": {
+    "name": "WeighingTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Type last weight",
+    "es": "Tipo último peso",
+    "pt": "Tipo último peso"
+  }
+}

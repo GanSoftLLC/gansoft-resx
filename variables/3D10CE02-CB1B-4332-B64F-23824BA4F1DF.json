@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "3D10CE02-CB1B-4332-B64F-23824BA4F1DF",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalMalesAliveWeights"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
+  "description": {
+    "en": "Total weight of males born alive (historical)",
+    "es": "Peso total machos nacidos vivos (histórico)",
+    "pt": "Peso total de homens nascidos vivos (histórico)"
+  }
+}

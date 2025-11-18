@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "45AAE3C5-6286-48B1-8C09-0B279AA8DE12",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.BetweenDeliveriesFrom1To2"
+    }
+  },
+  "description": {
+    "en": "Interval between 1st. and 2nd. delivery (days)",
+    "es": "Intervalo entre 1ro. y 2do. parto (días)",
+    "pt": "Intervalo entre 1º. e 2º. entrega (dias)"
+  }
+}
