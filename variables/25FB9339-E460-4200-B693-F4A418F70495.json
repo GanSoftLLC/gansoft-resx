@@ -15,7 +15,7 @@
     }
   },
   "format": {
-    "name": "NumerFormatter",
+    "name": "NumberFormatter",
     "params": [ 1 ]
   }, 
   "description": {

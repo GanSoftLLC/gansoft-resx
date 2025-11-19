@@ -5,17 +5,17 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "(DATEDIFF(d,A.BirthDate,AGRSUM.ServiceWeightDate)/30.41)"
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
     },
     "where": {
-      "default": "(DATEDIFF(d,A.BirthDate,AGRSUM.ServiceWeightDate)/30.41)"
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
     },
     "order": {
-      "default": "(DATEDIFF(d,A.BirthDate,AGRSUM.ServiceWeightDate)/30.41)"
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
     }
   },
   "format": {
-    "name": "NumerFormatter",
+    "name": "NumberFormatter",
     "params": [ 2 ]
   }, 
   "description": {
