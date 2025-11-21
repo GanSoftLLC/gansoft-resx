@@ -5,7 +5,7 @@
   "type": "decimal",
   "query": {
     "select": {
-      "default": "(((AMASUM.TotalMalesWeightsAlive + AMASUM.TotalFemalesWeightsAlive)*1.00) / NULLIF((AMASUM.TotalMalesAlive + AMASUM.TotalFemalesAlive), 0)) / NULLIF(AMASUM.LastDeliveryNumber, 0)"
+      "default": "(((AMASUM.TotalMalesAliveWeights + AMASUM.TotalFemalesAliveWeights)*1.00) / NULLIF((AMASUM.TotalMalesAlive + AMASUM.TotalFemalesAlive), 0)) / NULLIF(AMASUM.LastDeliveryNumber, 0)"
     }
   },
   "format": {
