@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "12139CC4-E2FB-4FD1-809E-FD43FD7EF6E1",
+  "group": 10,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastCheckDiagnosticRightOvary"
+    }
+  },
+  "description": {
+    "en": "Code of the penultimate diagnosis in the right ovary",
+    "es": "Código del penúltimo diagnóstico en Ovario derecho",
+    "pt": "Código do penúltimo diagnóstico no ovário direito"
+  }
+}
