@@ -9,8 +9,8 @@
     }
   },
   "description": {
-    "en": "Empty days between 2nd. and 3th. delivery (days)",
-    "es": "Días vacía entre 2do. y 3er. parto (días)",
-    "pt": "Dias vazios entre 2º. e 3º. entrega (dias)"
+    "en": "Empty days between 2nd. and 3th. delivery",
+    "es": "Días vacía entre 2do. y 3er. parto",
+    "pt": "Dias vazios entre 2º. e 3º. entrega"
   }
 }

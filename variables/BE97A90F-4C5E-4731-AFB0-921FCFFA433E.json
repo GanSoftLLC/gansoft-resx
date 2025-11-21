@@ -16,8 +16,8 @@
     }
   },
   "description": {
-    "en": "Unique code of the technician from the last service",
-    "es": "Código único del técnico del último servicio",
-    "pt": "Código único do técnico do último serviço"
+    "en": "Code of the technician from the last service",
+    "es": "Código del técnico del último servicio",
+    "pt": "Código do técnico do último serviço"
   }
 }
