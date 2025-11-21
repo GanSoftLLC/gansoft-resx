@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "CE13EE8C-F643-4DD2-8789-60595A25F809",
+  "group": 10,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastCheckDiagnostic"
+    }
+  },
+  "description": {
+    "en": "Reproductive diagnosis penultimate review",
+    "es": "Diagnóstico reproductivo penúltima revisión",
+    "pt": "Penúltima revisão do diagnóstico reprodutivo"
+  }
+}

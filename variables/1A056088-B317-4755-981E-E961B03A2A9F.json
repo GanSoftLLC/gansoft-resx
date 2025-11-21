@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "1A056088-B317-4755-981E-E961B03A2A9F",
+  "group": 10,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastCheckDiagnosticUterus"
+    }
+  },
+  "description": {
+    "en": "Code of the last diagnosis in Utero",
+    "es": "Código del último diagnóstico en Utero",
+    "pt": "Código do último diagnóstico no útero"
+  }
+}
