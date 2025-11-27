@@ -1,0 +1,26 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B32B0873-0F58-4D04-B719-20CAB74FB543",
+  "group": 1,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
+    },
+    "where": {
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
+    },
+    "order": {
+      "default": "(DATEDIFF(d,AGRSUM.BirthWeightDate,AGRSUM.ServiceWeightDate)/30.41)"
+    }
+  },
+  "format": {
+    "name": "NumberFormatter",
+    "params": [ 2 ]
+  }, 
+  "description": {
+    "en": "Age of entry into service (months)",
+    "es": "Edad de entrada al servicio (meses)",
+    "pt": "Idade de entrada em serviço (meses)"
+  }
+}

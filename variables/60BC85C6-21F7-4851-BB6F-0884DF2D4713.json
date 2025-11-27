@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "60BC85C6-21F7-4851-BB6F-0884DF2D4713",
+  "group": 10,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastCheckDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of next to last review",
+    "es": "Fecha de la penúltima revisión",
+    "pt": "Data da penúltima revisão"
+  }
+}

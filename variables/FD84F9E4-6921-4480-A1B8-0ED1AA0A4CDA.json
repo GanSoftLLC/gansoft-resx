@@ -1,6 +1,6 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "BE97A90F-4C5E-4731-AFB0-921FCFFA433E",
+  "id": "FD84F9E4-6921-4480-A1B8-0ED1AA0A4CDA",
   "group": 10,
   "type": "string",
   "data": {
@@ -12,12 +12,12 @@
   }, 
   "query": {
     "select": {
-      "default": "AMASUM.LastServiceTechnicianCode"
+      "default": "AMASUM.LastEmbryoProductionSireUniqueCode"
     }
   },
   "description": {
-    "en": "Code of the technician from the last service",
-    "es": "Código del técnico del último servicio",
-    "pt": "Código do técnico do último serviço"
+    "en": "Last embryo production sire unique code",
+    "es": "Código técnico última producción de embriones",
+    "pt": "Código reprodutivo da última produção de embriões"
   }
 }

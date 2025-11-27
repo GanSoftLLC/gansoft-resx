@@ -8,7 +8,7 @@
   },
   "query": {
     "select": {
-      "default": "(CASE WHEN A.Category < 5 THEN 2 ELSE (CASE WHEN A.Category < 10 THEN 1 ELSE 0 END) END)"
+      "default": "cast((CASE WHEN A.Category < 5 THEN 2 ELSE (CASE WHEN A.Category < 10 THEN 1 ELSE 0 END) END) as smallint)"
     }
   },
   "format": {

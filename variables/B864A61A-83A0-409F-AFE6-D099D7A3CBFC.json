@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B864A61A-83A0-409F-AFE6-D099D7A3CBFC",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalMalesWeights"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
+  "description": {
+    "en": "Total weight of males born (historical)",
+    "es": "Peso total machos nacidos (histórico)",
+    "pt": "Peso total de homens nascidos (histórico)"
+  }
+}

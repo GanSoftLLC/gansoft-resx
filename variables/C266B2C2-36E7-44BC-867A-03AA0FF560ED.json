@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "C266B2C2-36E7-44BC-867A-03AA0FF560ED",
+  "group": 10,
+  "type": "string",
+  "data": {
+    "type": "query",
+    "source": {
+      "default" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default].[Animals] A inner join [db_default].[Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0",
+      "sqlite" : "SELECT A.[Id] as [Value], A.[UniqueCode] as [Text] FROM [db_default_Animals] A inner join [db_default_Lots] L on A.LotId = L.Id WHERE L.FarmId = @FarmId and A.IsDeleted = 0"
+    }
+  }, 
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastServiceSireUniqueCode"
+    }
+  },
+  "description": {
+    "en": "Unique code of the stallion from the next to last service",
+    "es": "Código único del reproductor del penúltimo servicio",
+    "pt": "Código único do garanhão do penúltimo serviço"
+  }
+}

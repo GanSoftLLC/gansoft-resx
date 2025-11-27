@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "0E5CA057-720E-44B6-8518-7DDD702F8404",
+  "group": 10,
+  "type": "ServiceType",
+  "query": {
+    "select": {
+      "default": "AMASUM.NextToLastServiceType"
+    }
+  },
+  "format": {
+    "name": "ServiceTypeFormatter",
+    "params": null
+  },  
+  "description": {
+    "en": "Next to last service type",
+    "es": "Tipo del penúltimo servicio",
+    "pt": "Tipo do penúltimo serviço"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5AA0B14D-172B-4296-9DD9-60E578500154",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalFemalesAliveWeights"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
+  "description": {
+    "en": "Total weight of females born alive (historical)",
+    "es": "Peso total hembras nacidas vivas (histórico)",
+    "pt": "Peso total de femeas nascidas vivas (histórico)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "9B931813-01C8-4BDB-AE4E-55A52C0D7637",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.TotalMalesBorn"
+    }
+  },
+  "description": {
+    "en": "Total males born (historical)",
+    "es": "Total machos nacidos (histórico)",
+    "pt": "Total de homens nascidos (histórico)"
+  }
+}

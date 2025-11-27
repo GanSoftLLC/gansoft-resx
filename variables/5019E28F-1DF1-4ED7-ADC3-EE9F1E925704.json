@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "5019E28F-1DF1-4ED7-ADC3-EE9F1E925704",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.EmbryoProductionTotalEmbryos"
+    }
+  },
+  "description": {
+    "en": "Viable eggs accumulated in embryo production",
+    "es": "Óvulos viables acumulados en producción de embriones",
+    "pt": "Ovos viáveis ​​acumulados na produção de embriões"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "676C7301-D803-4483-BC5D-257AC4B4C2CE",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.EmptyDaysFrom1To2"
+    }
+  },
+  "description": {
+    "en": "Empty days between 1st. and 2nd. delivery",
+    "es": "Días vacía entre 1ro. y 2do. parto",
+    "pt": "Dias vazios entre 1º. e 2º. entrega"
+  }
+}

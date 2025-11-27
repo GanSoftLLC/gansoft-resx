@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E2A6B072-F270-433F-8CDF-F0427998F330",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.EmptyDaysFrom2To3"
+    }
+  },
+  "description": {
+    "en": "Empty days between 2nd. and 3th. delivery",
+    "es": "Días vacía entre 2do. y 3er. parto",
+    "pt": "Dias vazios entre 2º. e 3º. entrega"
+  }
+}

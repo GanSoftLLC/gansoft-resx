@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B7CF63C2-195B-4641-AC4D-40C21B1E39FD",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.EmbryoProductionTotalEggs"
+    }
+  },
+  "description": {
+    "en": "Initial eggs accumulated in embryo production",
+    "es": "Óvulos iniciales acumulados en producción de embriones",
+    "pt": "Ovos iniciais acumulados na produção de embriões"
+  }
+}

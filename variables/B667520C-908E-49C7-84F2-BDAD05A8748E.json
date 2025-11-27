@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B667520C-908E-49C7-84F2-BDAD05A8748E",
+  "group": 10,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "(((AMASUM.TotalMalesWeights + AMASUM.TotalFemalesWeights)*1.00) / NULLIF((AMASUM.TotalMalesBorn + AMASUM.TotalFemalesBorn), 0)) / NULLIF(AMASUM.LastDeliveryNumber, 0)"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
+  "description": {
+    "en": "Average total births per delivery",
+    "es": "Peso promedio nacidos por parto",
+    "pt": "Média total de nascimentos por parto"
+  }
+}

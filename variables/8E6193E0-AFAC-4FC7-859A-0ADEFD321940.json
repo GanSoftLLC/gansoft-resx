@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "8E6193E0-AFAC-4FC7-859A-0ADEFD321940",
+  "group": 10,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "AMASUM.LastEmbryoProductionFinalEmbryos"
+    }
+  },
+  "description": {
+    "en": "Last embryo production final eggs",
+    "es": "Cantidad final última producción de embriones",
+    "pt": "Quantidade final última produção de embriões"
+  }
+}
