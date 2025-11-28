@@ -5,13 +5,15 @@
   "type": "string",
   "query": {
     "select": {
+      "default": "REPLICATE(' ', 12 - LEN(A.UniqueCode)) + A.UniqueCode"
+    },
+    "where": {
       "default": "A.UniqueCode"
+    },
+    "order": {
+      "default": "REPLICATE(' ', 12 - LEN(A.UniqueCode)) + A.UniqueCode"
     }
   },
-  "format": {
-    "name": "PadLeftFormatter",
-    "params": [ 12 ]
-  }, 
   "description": {
     "en": "Animal unique code",
     "es": "Código único del animal",
