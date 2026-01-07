@@ -13,6 +13,12 @@
   "query": {
     "select": {
       "default": "ASUM.NextToLastLocationCode"
+    },
+    "where": {
+      "default": "LTRIM(ASUM.NextToLastLocationCode)"
+    },
+    "order": {
+      "default": "ASUM.NextToLastLocationCode"
     }
   },
   "description": {
