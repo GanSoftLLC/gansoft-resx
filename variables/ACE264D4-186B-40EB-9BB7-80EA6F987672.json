@@ -5,13 +5,15 @@
   "type": "string",
   "query": {
     "select": {
+      "default": "REPLICATE(' ', 12 - LEN(A.PracticalCode)) + A.PracticalCode"
+    },
+    "where": {
       "default": "A.PracticalCode"
+    },
+    "order": {
+      "default": "REPLICATE(' ', 12 - LEN(A.PracticalCode)) + A.PracticalCode"
     }
   },
-  "format": {
-    "name": "PadLeftFormatter",
-    "params": [ 12 ]
-  }, 
   "description": {
     "en": "Animal code",
     "es": "Código práctico del animal",
