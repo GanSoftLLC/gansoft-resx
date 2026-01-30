@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "563E1F3E-76F0-4466-B549-AD7655861521",
+  "group": 1,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "(DATEDIFF(DAY,@Date,A.CreationDate))"
+    }
+  },
+  "description": {
+    "en": "Days since creation",
+    "es": "Días desde la creación",
+    "pt": "Dias desde a criação"
+  }
+}
