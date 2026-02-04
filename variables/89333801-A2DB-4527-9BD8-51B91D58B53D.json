@@ -8,7 +8,7 @@
   },
   "query": {
     "select": {
-      "default": "cast((CASE WHEN AFTH.Category = 8 THEN 1 WHEN AFTH.Category = 9 THEN 2 WHEN AFTH.Category = 10 THEN 3 ELSE 0 END) as smallint)"
+      "default": "cast((CASE WHEN A.ReceiverId is NOT NULL THEN 3 ELSE (CASE WHEN AFTH.Category IS NULL AND A.MotherId IS NOT NULL THEN 1 WHEN AFTH.Category = 8 THEN 1 WHEN AFTH.Category = 9 THEN 2 ELSE 0 END) END) as smallint)"
     }
   },
   "format": {
@@ -16,8 +16,8 @@
     "params": null
   },  
   "description": {
-    "en": "Origin of the animal (Mating/Insemination/Embryo)",
-    "es": "Origen del animal (Monta/Inseminación/Embrión)",
-    "pt": "Origem do animal (Acasalamento/Inseminação/Embrião)"
+    "en": "Origin of the animal",
+    "es": "Origen del animal",
+    "pt": "Origem do animal"
   }
 }
