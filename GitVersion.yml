@@ -1,0 +1,22 @@
+mode: ContinuousDeployment
+tag-prefix: '[vV]?'
+commit-message-incrementing: Enabled
+major-version-bump-message: '(BREAKING CHANGE:|major:)'
+minor-version-bump-message: '(feat:)'
+patch-version-bump-message: "(fix:|build:|chore:|ci:|docs:|style:|refactor:|perf:|test:)"
+branches:
+  develop:
+    mode: ContinuousDelivery
+    label: alpha
+    increment: Minor
+    regex: ^dev(elop)?(ment)?$
+  main:
+    label: ''
+    increment: Patch
+    regex: ^main$|^master$
+    is-main-branch: true
+  qa:
+    mode: ContinuousDelivery
+    label: pre
+    increment: Patch
+    regex: ^qa$|^test$
