@@ -1,11 +1,11 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "20581E60-90EA-4E36-ADC5-A04292C7596B",
+  "id": "C486BA3D-A25A-4C42-8BA4-2ED4B5B5E440",
   "group": 8,
   "type": "decimal",
   "query": {
     "select": {
-      "default": "AGRSUM.LastHeight"
+      "default": "AGRSUM.NextToLastHeight"
     }
   },
   "format": {
@@ -13,8 +13,8 @@
     "params": [ "length", 1 ]
   },  
   "description": {
-    "en": "Last height of the animal",
-    "es": "Última altura del animal",
-    "pt": "Última altura do animal"
+    "en": "Next to last height of the animal",
+    "es": "Penúltima altura del animal",
+    "pt": "Penúltima altura do animal"
   }
 }
