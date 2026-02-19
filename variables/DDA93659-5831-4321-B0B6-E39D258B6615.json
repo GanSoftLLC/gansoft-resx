@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "DDA93659-5831-4321-B0B6-E39D258B6615",
+  "group": 8,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AGRSUM.NextToLastHeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of the Animal's penultimate height",
+    "es": "Fecha de la penúltima altura del Animal",
+    "pt": "Data da penúltima altura do animal"
+  }
+}
