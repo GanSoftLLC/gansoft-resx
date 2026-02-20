@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "B0F1067D-7BB3-4F45-B742-A84CD2EAFDCB",
+  "group": 8,
+  "type": "short",
+  "data": {
+    "type": "WeighingType"
+  }, 
+  "query": {
+    "select": {
+      "default": "AGRSUM.NextToLastHeightType"
+    }
+  },
+    "format": {
+    "name": "WeighingTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Next to last height type",
+    "es": "Tipo penúltima altura",
+    "pt": "Tipo penúltima altura"
+  }
+}
