@@ -1,6 +1,6 @@
 {
   "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
-  "id": "15539D57-697F-4FB4-8BD2-5760C19C25C2",
+  "id": "B0F1067D-7BB3-4F45-B742-A84CD2EAFDCB",
   "group": 8,
   "type": "short",
   "data": {
@@ -8,7 +8,7 @@
   }, 
   "query": {
     "select": {
-      "default": "AGRSUM.LastWeightType"
+      "default": "AGRSUM.NextToLastHeightType"
     }
   },
     "format": {
@@ -16,8 +16,8 @@
     "params": null
   },
   "description": {
-    "en": "Type last weight",
-    "es": "Tipo último peso",
-    "pt": "Tipo último peso"
+    "en": "Next to last height type",
+    "es": "Tipo penúltima altura",
+    "pt": "Tipo penúltima altura"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "20581E60-90EA-4E36-ADC5-A04292C7596B",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.LastHeight"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "length", 1 ]
+  },  
+  "description": {
+    "en": "Last height of the animal",
+    "es": "Última altura del animal",
+    "pt": "Última altura do animal"
+  }
+}
