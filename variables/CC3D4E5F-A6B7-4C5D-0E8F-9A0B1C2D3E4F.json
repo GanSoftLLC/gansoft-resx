@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "CC3D4E5F-A6B7-4C5D-0E8F-9A0B1C2D3E4F",
+  "group": 9,
+  "type": "int",
+  "query": {
+    "select": {
+      "default": "DATEDIFF(DAY,AMISUM.AntepenultimateMilkWeightDate,@Date)"
+    }
+  },
+  "description": {
+    "en": "Days since antepenultimate milk weighing",
+    "es": "Días desde antepenúltimo pesaje de leche",
+    "pt": "Dias desde a antepenúltima pesagem do leite"
+  }
+}
