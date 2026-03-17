@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "BB2C3D4E-F5A6-4B5C-9D7E-8F9A0B1C2D3E",
+  "group": 9,
+  "type": "datetime",
+  "query": {
+    "select": {
+      "default": "AMISUM.AntepenultimateMilkWeightDate"
+    }
+  },
+  "format": {
+    "name": "DateTimeFormatter",
+    "params": [ "shortdate" ]
+  },  
+  "description": {
+    "en": "Date of the antepenultimate milk weighing",
+    "es": "Fecha del antepenúltimo pesaje de leche",
+    "pt": "Data da antepenúltima pesagem do leite"
+  }
+}
