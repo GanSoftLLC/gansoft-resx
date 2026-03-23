@@ -1,0 +1,16 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "E02948C8-E406-4839-8CA6-FC3D851BA850",
+  "group": 12,
+  "type": "string",
+  "query": {
+    "select": {
+      "default": "'___/___/___'"
+    }
+  },
+  "description": {
+    "en": "Date",
+    "es": "Fecha",
+    "pt": "Data"
+  }
+}
