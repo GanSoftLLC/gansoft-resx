@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "FF6A7B8C-D9E0-4F5A-3B1C-2D3E4F5A6B7C",
+  "group": 8,
+  "type": "decimal",
+  "query": {
+    "select": {
+      "default": "AGRSUM.AntepenultimateWeight"
+    }
+  },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass" ]
+  },  
+  "description": {
+    "en": "Antepenultimate weight of the animal",
+    "es": "Antepenúltimo peso del animal",
+    "pt": "Antepenúltimo peso do animal"
+  }
+}

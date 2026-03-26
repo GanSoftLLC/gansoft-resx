@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "EE5F6A7B-C8D9-4E5F-2A0B-1C2D3E4F5A6B",
+  "group": 8,
+  "type": "short",
+  "data": {
+    "type": "WeighingType"
+  }, 
+  "query": {
+    "select": {
+      "default": "AGRSUM.AntepenultimateWeightType"
+    }
+  },
+    "format": {
+    "name": "WeighingTypeFormatter",
+    "params": null
+  },
+  "description": {
+    "en": "Antepenultimate weight type",
+    "es": "Tipo antepenúltimo peso",
+    "pt": "Tipo antepenúltimo peso"
+  }
+}

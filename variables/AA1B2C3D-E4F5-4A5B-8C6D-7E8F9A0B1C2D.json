@@ -1,0 +1,20 @@
+{
+  "$schema": "https://gansoft.io/schemas/2025-01/report/variable.schema.json",
+  "id": "AA1B2C3D-E4F5-4A5B-8C6D-7E8F9A0B1C2D",
+  "group": 9,
+  "type": "decimal",
+  "query": {
+    "select": {
+        "default": "AMISUM.AntepenultimateMilkWeightValue"
+      }
+    },
+  "format": {
+    "name": "MksFormatter",
+    "params": [ "mass", 2 ]
+  }, 
+  "description": {
+    "en": "Antepenultimate milk weighing",
+    "es": "Antepenúltimo pesaje de leche",
+    "pt": "Antepenúltima pesagem do leite"
+  }
+}
